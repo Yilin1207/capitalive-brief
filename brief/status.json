@@ -1,0 +1,32 @@
+{
+ "published_at": "2026-11-23T08:33:26.779Z",
+ "ok": true,
+ "status": "PARTIAL",
+ "generated_at": "2026-11-23T08:33:45.392Z",
+ "results": {
+  "NAS100": {
+   "http_status": 200,
+   "status": "PARTIAL",
+   "snapshot_sha256": "3d658aafad0fe090e5fa4af6b97b50ea4e04e6d4132168926f7781beca2a043f",
+   "error": null
+  },
+  "EU50": {
+   "http_status": 200,
+   "status": "PARTIAL",
+   "snapshot_sha256": "8c8e556ab5aadeba3d3c3203bfa4e89665fbb2152c55a6d3a52c7b4570572bc0",
+   "error": null
+  },
+  "EURUSD": {
+   "http_status": 200,
+   "status": "PARTIAL",
+   "snapshot_sha256": "0f0baf6414422c8152a750a14f478532af79db750400614838f220a82dffdd39",
+   "error": null
+  }
+ },
+ "grid": "ny",
+ "engine": {
+  "contract": "pa-engine-v6.1",
+  "revision": "pa-only-6.0.0",
+  "commit": "d8341967176d12ea2c49fb751081a2f8ee1a4c6e"
+ }
+}
