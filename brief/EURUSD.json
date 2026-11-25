@@ -1,6 +1,6 @@
 {
- "published_at": "2026-11-24T17:34:27.014Z",
- "requested_at": "2026-11-24T17:33:56.875Z",
+ "published_at": "2026-11-25T02:21:13.729Z",
+ "requested_at": "2026-11-25T02:20:49.681Z",
  "source": "https://capitalive.vercel.app/api/brief?symbols=NAS100%2CEU50%2CEURUSD&latest=12",
  "brief": {
   "schema_version": "pa-brief-v1",
@@ -26,41 +26,41 @@
   "status": "PARTIAL",
   "data_quality": "PARTIAL",
   "observations_available": true,
-  "generated_at": "2026-11-24T17:34:26.792Z",
-  "as_of": "2026-11-24T17:34:19.291Z",
-  "expires_at": "2026-11-24T17:36:25.479Z",
-  "snapshot_sha256": "ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011",
+  "generated_at": "2026-11-25T02:21:13.657Z",
+  "as_of": "2026-11-25T02:21:07.668Z",
+  "expires_at": "2026-11-25T02:23:13.090Z",
+  "snapshot_sha256": "c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a",
   "source": {
    "provider": "Capital.com",
    "environment": "demo",
    "analysis_schema": "pa-engine-v6",
    "price_side": "bid",
    "engine_commit": "d8341967176d12ea2c49fb751081a2f8ee1a4c6e",
-   "evidence_sha256": "ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011",
+   "evidence_sha256": "c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a",
    "demo_live_equivalence": "NOT_ESTABLISHED",
    "full_ohlc_published": false
   },
   "quote": {
-   "bid": 1.09701,
-   "ask": 1.09708,
+   "bid": 1.09639,
+   "ask": 1.09646,
    "spread": 0.0000700000000000145,
-   "provider_timestamp": "2026-11-24T17:34:25.479Z",
-   "retrieved_at": "2026-11-24T17:34:26.792Z",
+   "provider_timestamp": "2026-11-25T02:21:13.090Z",
+   "retrieved_at": "2026-11-25T02:21:13.657Z",
    "source_type": "REST",
    "market_status": "TRADEABLE",
-   "provider_age_seconds": 1.313,
+   "provider_age_seconds": 0.567,
    "fresh": true,
    "used_as_closed_evidence": false
   },
   "freshness": {
    "quote_status": "FRESH",
-   "quote_retrieved_at": "2026-11-24T17:34:26.792Z",
+   "quote_retrieved_at": "2026-11-25T02:21:13.657Z",
    "data_quality": "PARTIAL",
    "stale_reasons": [],
    "quote_max_seconds": 120,
    "h4_max_delay_seconds": 600,
    "h4_delay_seconds": 0,
-   "source_age_seconds": 7.501,
+   "source_age_seconds": 5.989,
    "delivery_max_seconds": 120
   },
   "warnings": [
@@ -70,15 +70,15 @@
    "PROVIDER_VALIDATION_LOSS"
   ],
   "reference": {
-   "price": 1.09648,
-   "at": "2026-11-24T14:00:00.000Z",
+   "price": 1.0958,
+   "at": "2026-11-25T02:00:00.000Z",
    "basis": "LAST_CLOSED_H4_CLOSE"
   },
   "atr_d1": {
-   "value": 0.0072714286,
+   "value": 0.00723,
    "period": 14,
    "basis": "D1_CLOSED_TRUE_RANGE_MEAN",
-   "through": "2026-11-23T22:00:00.000Z",
+   "through": "2026-11-24T22:00:00.000Z",
    "use": "DISTANCE_UNIT_ONLY_NOT_A_THRESHOLD"
   },
   "approach_config": {
@@ -247,12 +247,12 @@
       "high": 1.20824,
       "low": 1.01772,
       "eq": 1.1129799999999999,
-      "price": 1.09648,
+      "price": 1.0958,
       "price_basis": "LAST_CLOSED_H4_CLOSE",
-      "price_position_pct": 41.34,
+      "price_position_pct": 40.98,
       "zone": "DISCOUNT",
-      "distance_to_high": 0.11176,
-      "distance_to_low": 0.07876,
+      "distance_to_high": 0.11244,
+      "distance_to_low": 0.07808,
       "dr_status": "ESTABLISHED",
       "confirmed": true,
       "selection": "AUTOMATIC_CANDIDATE",
@@ -273,12 +273,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.00163,
+       "distance": 0.00231,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2024-04-01T00:00:00.000Z:3:high:2024-03-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2024-04-01T00:00:00.000Z:3:high:2024-03-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.2242,
+       "distance_atr_d1": 0.3195,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -314,12 +314,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.00681,
+       "distance": 0.00749,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2023-03-01T00:00:00.000Z:3:high:2023-02-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2023-03-01T00:00:00.000Z:3:high:2023-02-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.9365,
+       "distance_atr_d1": 1.036,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -355,12 +355,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.01304,
+       "distance": 0.01372,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2023-05-01T00:00:00.000Z:3:high:2023-04-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2023-05-01T00:00:00.000Z:3:high:2023-04-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 1.7933,
+       "distance_atr_d1": 1.8976,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -396,7 +396,7 @@
        "state": "CANDIDATE",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.01716,
+       "distance": 0.01784,
        "contexts": [
         {
          "id": "EURUSD:MN1:bid:FRACTAL:2024-05-01T00:00:00.000Z:3:low:2024-04-01T00:00:00.000Z",
@@ -418,9 +418,9 @@
         }
        ],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:SNR_CLOSED_BREAK:2025-04-01T00:00:00.000Z:2024-09-01T00:00:00.000Z:EURUSD:MN1:bid:FRACTAL:2024-05-01T00:00:00.000Z:3:low:2024-04-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:SNR_CLOSED_BREAK:2025-04-01T00:00:00.000Z:2024-09-01T00:00:00.000Z:EURUSD:MN1:bid:FRACTAL:2024-05-01T00:00:00.000Z:3:low:2024-04-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 2.3599,
+       "distance_atr_d1": 2.4675,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -456,12 +456,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.01745,
+       "distance": 0.01813,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2024-01-01T00:00:00.000Z:3:high:2023-12-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2024-01-01T00:00:00.000Z:3:high:2023-12-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 2.3998,
+       "distance_atr_d1": 2.5076,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -499,12 +499,12 @@
        "state": "ACTIVE",
        "formation_status": "CONFIRMED",
        "fill": "UNTOUCHED",
-       "distance": 0.01867,
+       "distance": 0.01799,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FVG:2025-04-01T00:00:00.000Z:&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FVG:2025-04-01T00:00:00.000Z:&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 2.5676,
+       "distance_atr_d1": 2.4882,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -529,12 +529,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.027,
+       "distance": 0.02632,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2024-03-01T00:00:00.000Z:3:low:2024-02-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2024-03-01T00:00:00.000Z:3:low:2024-02-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 3.7132,
+       "distance_atr_d1": 3.6404,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -570,12 +570,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.03298,
+       "distance": 0.0323,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2023-06-01T00:00:00.000Z:3:low:2023-05-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2023-06-01T00:00:00.000Z:3:low:2023-05-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 4.5356,
+       "distance_atr_d1": 4.4675,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -611,12 +611,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.03637,
+       "distance": 0.03569,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2024-05-01T00:00:00.000Z:3:low:2024-04-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2024-05-01T00:00:00.000Z:3:low:2024-04-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 5.0018,
+       "distance_atr_d1": 4.9364,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -652,12 +652,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.04488,
+       "distance": 0.0442,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2023-04-01T00:00:00.000Z:3:low:2023-03-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2023-04-01T00:00:00.000Z:3:low:2023-03-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 6.1721,
+       "distance_atr_d1": 6.1134,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -695,14 +695,14 @@
      "closes": "FALLING",
      "bars_without_correction": 2,
      "move": 0.04623,
-     "move_atr_d1": 6.3578,
+     "move_atr_d1": 6.3942,
      "window_bars": 6,
      "overlapping_body_pairs": 3,
      "contracting_ranges": 1,
      "nearest_level_on_path": {
       "id": "EURUSD:MN1:bid:FVG:2025-04-01T00:00:00.000Z:",
       "kind": "FVG",
-      "distance": 0.01867,
+      "distance": 0.01799,
       "at_price": false
      },
      "flag": "NOT_EVALUATED",
@@ -814,7 +814,7 @@
       "confirmed_at": "2026-03-01T00:00:00.000Z",
       "relation": "HH",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:low:2026-01-01T00:00:00.000Z",
@@ -823,7 +823,7 @@
       "confirmed_at": "2026-03-01T00:00:00.000Z",
       "relation": "HL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:low:2026-01-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:low:2026-01-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:MN1:bid:FRACTAL:2026-04-01T00:00:00.000Z:3:low:2026-03-01T00:00:00.000Z",
@@ -832,7 +832,7 @@
       "confirmed_at": "2026-05-01T00:00:00.000Z",
       "relation": "LL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2026-04-01T00:00:00.000Z:3:low:2026-03-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2026-04-01T00:00:00.000Z:3:low:2026-03-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:MN1:bid:FRACTAL:2026-05-01T00:00:00.000Z:3:high:2026-04-01T00:00:00.000Z",
@@ -841,7 +841,7 @@
       "confirmed_at": "2026-06-01T00:00:00.000Z",
       "relation": "LH",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2026-05-01T00:00:00.000Z:3:high:2026-04-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2026-05-01T00:00:00.000Z:3:high:2026-04-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:MN1:bid:FRACTAL:2026-07-01T00:00:00.000Z:3:low:2026-06-01T00:00:00.000Z",
@@ -850,7 +850,7 @@
       "confirmed_at": "2026-08-01T00:00:00.000Z",
       "relation": "LL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2026-07-01T00:00:00.000Z:3:low:2026-06-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2026-07-01T00:00:00.000Z:3:low:2026-06-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:MN1:bid:FRACTAL:2026-09-01T00:00:00.000Z:3:high:2026-08-01T00:00:00.000Z",
@@ -859,7 +859,7 @@
       "confirmed_at": "2026-10-01T00:00:00.000Z",
       "relation": "LH",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2026-09-01T00:00:00.000Z:3:high:2026-08-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:MN1:bid:FRACTAL:2026-09-01T00:00:00.000Z:3:high:2026-08-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      }
     ],
     "findings_by_kind": {
@@ -871,9 +871,9 @@
      "FRACTAL_INSIDE_POI": 4
     },
     "links": {
-     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&timeframe=MN1&limit=50&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011",
-     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=EURUSD&side=bid&grid=ny&timeframe=MN1&limit=200&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011",
-     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&view=structure&timeframe=MN1&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&timeframe=MN1&limit=50&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a",
+     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=EURUSD&side=bid&grid=ny&timeframe=MN1&limit=200&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a",
+     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&view=structure&timeframe=MN1&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
     }
    },
    "W1": {
@@ -1003,12 +1003,12 @@
       "high": 1.17115,
       "low": 1.1104,
       "eq": 1.140775,
-      "price": 1.09648,
+      "price": 1.0958,
       "price_basis": "LAST_CLOSED_H4_CLOSE",
-      "price_position_pct": -22.91,
+      "price_position_pct": -24.03,
       "zone": "BELOW_RANGE",
-      "distance_to_high": 0.07467,
-      "distance_to_low": -0.01392,
+      "distance_to_high": 0.07535,
+      "distance_to_low": -0.0146,
       "dr_status": "AWAITING_NEW_EXTREME",
       "confirmed": false,
       "selection": "AUTOMATIC_CANDIDATE",
@@ -1029,12 +1029,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.00369,
+       "distance": 0.00437,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2024-09-15T00:00:00.000Z:3:low:2024-09-08T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2024-09-15T00:00:00.000Z:3:low:2024-09-08T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.5075,
+       "distance_atr_d1": 0.6044,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1070,12 +1070,12 @@
        "state": "ACTIVE",
        "formation_status": "CONFIRMED",
        "fill": "UNTOUCHED",
-       "distance": 0.00655,
+       "distance": 0.00723,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FVG:2026-11-15T00:00:00.000Z:&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FVG:2026-11-15T00:00:00.000Z:&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.9008,
+       "distance_atr_d1": 1,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1100,12 +1100,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.01005,
+       "distance": 0.01073,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2025-05-18T00:00:00.000Z:3:low:2025-05-11T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2025-05-18T00:00:00.000Z:3:low:2025-05-11T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 1.3821,
+       "distance_atr_d1": 1.4841,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1141,12 +1141,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.01392,
+       "distance": 0.0146,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-11-01T00:00:00.000Z:3:low:2026-10-25T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-11-01T00:00:00.000Z:3:low:2026-10-25T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 1.9143,
+       "distance_atr_d1": 2.0194,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1182,12 +1182,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.01478,
+       "distance": 0.01546,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-10-18T00:00:00.000Z:3:low:2026-10-11T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-10-18T00:00:00.000Z:3:low:2026-10-11T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 2.0326,
+       "distance_atr_d1": 2.1383,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1225,12 +1225,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.00104,
+       "distance": 0.00036,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2025-03-23T00:00:00.000Z:3:high:2025-03-16T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2025-03-23T00:00:00.000Z:3:high:2025-03-16T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.143,
+       "distance_atr_d1": 0.0498,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1242,14 +1242,14 @@
         },
         "last": [
          {
+          "tf": "D1",
+          "type": "ACCEPTANCE",
+          "at": "2026-11-24T22:00:00.000Z"
+         },
+         {
           "tf": "H4",
           "type": "ACCEPTANCE",
           "at": "2026-11-24T14:00:00.000Z"
-         },
-         {
-          "tf": "D1",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-23T22:00:00.000Z"
          }
         ]
        }
@@ -1266,12 +1266,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.00279,
+       "distance": 0.00211,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2024-11-10T00:00:00.000Z:3:high:2024-11-03T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2024-11-10T00:00:00.000Z:3:high:2024-11-03T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.3837,
+       "distance_atr_d1": 0.2918,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1283,14 +1283,14 @@
         },
         "last": [
          {
-          "tf": "H4",
+          "tf": "D1",
           "type": "ACCEPTANCE",
-          "at": "2026-11-24T14:00:00.000Z"
+          "at": "2026-11-24T22:00:00.000Z"
          },
          {
           "tf": "H4",
-          "type": "TOUCH",
-          "at": "2026-11-24T10:00:00.000Z"
+          "type": "ACCEPTANCE",
+          "at": "2026-11-24T14:00:00.000Z"
          }
         ]
        }
@@ -1307,7 +1307,7 @@
        "state": "CANDIDATE",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.0087,
+       "distance": 0.00802,
        "contexts": [
         {
          "id": "EURUSD:MN1:bid:FVG:2024-11-01T00:00:00.000Z:",
@@ -1329,9 +1329,9 @@
         }
        ],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:SNR_CLOSED_BREAK:2025-03-30T00:00:00.000Z:2025-03-09T00:00:00.000Z:EURUSD:W1:bid:FVG:2025-03-09T00:00:00.000Z:&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:SNR_CLOSED_BREAK:2025-03-30T00:00:00.000Z:2025-03-09T00:00:00.000Z:EURUSD:W1:bid:FVG:2025-03-09T00:00:00.000Z:&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 1.1965,
+       "distance_atr_d1": 1.1093,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1362,12 +1362,12 @@
        "state": "ACTIVE",
        "formation_status": "CONFIRMED",
        "fill": "UNTOUCHED",
-       "distance": 0.00872,
+       "distance": 0.00804,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FVG:2025-04-06T00:00:00.000Z:&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FVG:2025-04-06T00:00:00.000Z:&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 1.1992,
+       "distance_atr_d1": 1.112,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1392,7 +1392,7 @@
        "state": "CANDIDATE",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.01534,
+       "distance": 0.01466,
        "contexts": [
         {
          "id": "EURUSD:W1:bid:FVG:2025-03-09T00:00:00.000Z:",
@@ -1406,9 +1406,9 @@
         }
        ],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:RB_TWO_CANDLE:2025-03-23T00:00:00.000Z:EURUSD:W1:bid:FVG:2025-03-09T00:00:00.000Z:&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:RB_TWO_CANDLE:2025-03-23T00:00:00.000Z:EURUSD:W1:bid:FVG:2025-03-09T00:00:00.000Z:&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 2.1096,
+       "distance_atr_d1": 2.0277,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1441,14 +1441,14 @@
      "closes": "FALLING",
      "bars_without_correction": 5,
      "move": 0.02714,
-     "move_atr_d1": 3.7324,
+     "move_atr_d1": 3.7538,
      "window_bars": 6,
      "overlapping_body_pairs": 2,
      "contracting_ranges": 1,
      "nearest_level_on_path": {
       "id": "EURUSD:W1:bid:FRACTAL:2025-03-23T00:00:00.000Z:3:high:2025-03-16T00:00:00.000Z",
       "kind": "FRACTAL",
-      "distance": 0.00104,
+      "distance": 0.00036,
       "at_price": false
      },
      "flag": "NOT_EVALUATED",
@@ -1556,7 +1556,7 @@
       "confirmed_at": "2026-08-30T00:00:00.000Z",
       "relation": "HH",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-08-23T00:00:00.000Z:3:high:2026-08-16T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-08-23T00:00:00.000Z:3:high:2026-08-16T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:W1:bid:FRACTAL:2026-09-06T00:00:00.000Z:3:low:2026-08-30T00:00:00.000Z",
@@ -1565,7 +1565,7 @@
       "confirmed_at": "2026-09-13T00:00:00.000Z",
       "relation": "HL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-09-06T00:00:00.000Z:3:low:2026-08-30T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-09-06T00:00:00.000Z:3:low:2026-08-30T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:W1:bid:FRACTAL:2026-09-13T00:00:00.000Z:3:high:2026-09-06T00:00:00.000Z",
@@ -1574,7 +1574,7 @@
       "confirmed_at": "2026-09-20T00:00:00.000Z",
       "relation": "LH",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-09-13T00:00:00.000Z:3:high:2026-09-06T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-09-13T00:00:00.000Z:3:high:2026-09-06T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:W1:bid:FRACTAL:2026-10-18T00:00:00.000Z:3:low:2026-10-11T00:00:00.000Z",
@@ -1583,7 +1583,7 @@
       "confirmed_at": "2026-10-25T00:00:00.000Z",
       "relation": "LL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-10-18T00:00:00.000Z:3:low:2026-10-11T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-10-18T00:00:00.000Z:3:low:2026-10-11T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:W1:bid:FRACTAL:2026-11-01T00:00:00.000Z:3:low:2026-10-25T00:00:00.000Z",
@@ -1592,7 +1592,7 @@
       "confirmed_at": "2026-11-08T00:00:00.000Z",
       "relation": "LL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-11-01T00:00:00.000Z:3:low:2026-10-25T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-11-01T00:00:00.000Z:3:low:2026-10-25T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:W1:bid:FRACTAL:2026-11-08T00:00:00.000Z:3:high:2026-11-01T00:00:00.000Z",
@@ -1601,7 +1601,7 @@
       "confirmed_at": "2026-11-15T00:00:00.000Z",
       "relation": "LH",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-11-08T00:00:00.000Z:3:high:2026-11-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:W1:bid:FRACTAL:2026-11-08T00:00:00.000Z:3:high:2026-11-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      }
     ],
     "findings_by_kind": {
@@ -1613,9 +1613,9 @@
      "FRACTAL_INSIDE_POI": 8
     },
     "links": {
-     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&timeframe=W1&limit=50&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011",
-     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=EURUSD&side=bid&grid=ny&timeframe=W1&limit=200&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011",
-     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&view=structure&timeframe=W1&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&timeframe=W1&limit=50&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a",
+     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=EURUSD&side=bid&grid=ny&timeframe=W1&limit=200&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a",
+     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&view=structure&timeframe=W1&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
     }
    },
    "D1": {
@@ -1628,17 +1628,9 @@
      "GAP_BOUNDARY_NO_PATTERN_STITCHING",
      "PROVIDER_VALIDATION_LOSS"
     ],
-    "last_closed_at": "2026-11-23T22:00:00.000Z",
+    "last_closed_at": "2026-11-24T22:00:00.000Z",
     "closed_candles": 198,
     "last_closed_candles": [
-     {
-      "time": "2026-11-05T22:00:00.000Z",
-      "closed_at": "2026-11-06T22:00:00.000Z",
-      "open": 1.1217,
-      "high": 1.12345,
-      "low": 1.11306,
-      "close": 1.11397
-     },
      {
       "time": "2026-11-08T22:00:00.000Z",
       "closed_at": "2026-11-09T22:00:00.000Z",
@@ -1726,36 +1718,44 @@
       "high": 1.10055,
       "low": 1.08806,
       "close": 1.09021
+     },
+     {
+      "time": "2026-11-23T22:00:00.000Z",
+      "closed_at": "2026-11-24T22:00:00.000Z",
+      "open": 1.09013,
+      "high": 1.098,
+      "low": 1.08959,
+      "close": 1.09648
      }
     ],
     "dealing_range": {
-     "status": "AWAITING_NEW_EXTREME",
+     "status": "ESTABLISHED",
      "current": {
-      "lower": 1.09529,
-      "upper": 1.12512,
-      "equilibrium": 1.110205,
-      "confirmed_at": "2026-11-19T22:00:00.000Z",
-      "high_id": "EURUSD:D1:bid:FRACTAL:2026-11-10T22:00:00.000Z:3:high:2026-11-09T22:00:00.000Z",
-      "low_id": "EURUSD:D1:bid:FRACTAL:2026-11-18T22:00:00.000Z:3:low:2026-11-17T22:00:00.000Z"
+      "lower": 1.08806,
+      "upper": 1.10097,
+      "equilibrium": 1.094515,
+      "confirmed_at": "2026-11-24T22:00:00.000Z",
+      "high_id": "EURUSD:D1:bid:FRACTAL:2026-11-19T22:00:00.000Z:3:high:2026-11-18T22:00:00.000Z",
+      "low_id": "EURUSD:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:low:2026-11-22T22:00:00.000Z"
      },
-     "current_h4_position": null,
+     "current_h4_position": "PREMIUM",
      "reference": {
-      "price": 1.09021,
-      "at": "2026-11-23T22:00:00.000Z",
+      "price": 1.09648,
+      "at": "2026-11-24T22:00:00.000Z",
       "basis": "LAST_CLOSED_OWN_TF"
      },
      "premium_discount": {
-      "high": 1.12512,
-      "low": 1.09529,
-      "eq": 1.110205,
-      "price": 1.09648,
+      "high": 1.10097,
+      "low": 1.08806,
+      "eq": 1.094515,
+      "price": 1.0958,
       "price_basis": "LAST_CLOSED_H4_CLOSE",
-      "price_position_pct": 3.99,
-      "zone": "DISCOUNT",
-      "distance_to_high": 0.02864,
-      "distance_to_low": 0.00119,
-      "dr_status": "AWAITING_NEW_EXTREME",
-      "confirmed": false,
+      "price_position_pct": 59.95,
+      "zone": "PREMIUM",
+      "distance_to_high": 0.00517,
+      "distance_to_low": 0.00774,
+      "dr_status": "ESTABLISHED",
+      "confirmed": true,
       "selection": "AUTOMATIC_CANDIDATE",
       "eq_band": "NEEDS_SPECIFICATION_EXACT_EQUALITY_ONLY"
      }
@@ -1774,7 +1774,7 @@
        "state": "CANDIDATE",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.0002,
+       "distance": 0.00088,
        "contexts": [
         {
          "id": "EURUSD:D1:bid:FRACTAL:2026-11-18T22:00:00.000Z:3:low:2026-11-17T22:00:00.000Z",
@@ -1805,9 +1805,9 @@
         }
        ],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:SNR_CLOSED_BREAK:2026-11-22T22:00:00.000Z:2026-11-18T22:00:00.000Z:EURUSD:MN1:bid:FRACTAL:2024-04-01T00:00:00.000Z:3:high:2024-03-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:SNR_CLOSED_BREAK:2026-11-22T22:00:00.000Z:2026-11-18T22:00:00.000Z:EURUSD:MN1:bid:FRACTAL:2024-04-01T00:00:00.000Z:3:high:2024-03-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.0275,
+       "distance_atr_d1": 0.1217,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1815,13 +1815,18 @@
          "TOUCH": 0,
          "REJECTION": 0,
          "ACCEPTANCE": 0,
-         "RAID": 0
+         "RAID": 1
         },
         "last": [
          {
-          "tf": "H4",
+          "tf": "D1",
           "type": "RAID",
-          "at": "2026-11-24T14:00:00.000Z"
+          "at": "2026-11-24T22:00:00.000Z"
+         },
+         {
+          "tf": "H4",
+          "type": "ACCEPTANCE",
+          "at": "2026-11-24T22:00:00.000Z"
          }
         ]
        }
@@ -1838,7 +1843,7 @@
        "state": "CANDIDATE",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.00323,
+       "distance": 0.00391,
        "contexts": [
         {
          "id": "EURUSD:MN1:bid:FRACTAL:2024-04-01T00:00:00.000Z:3:high:2024-03-01T00:00:00.000Z",
@@ -1860,9 +1865,9 @@
         }
        ],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:SNR_CLOSED_BREAK:2026-11-17T22:00:00.000Z:2026-11-15T22:00:00.000Z:EURUSD:MN1:bid:FRACTAL:2024-04-01T00:00:00.000Z:3:high:2024-03-01T00:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:SNR_CLOSED_BREAK:2026-11-17T22:00:00.000Z:2026-11-15T22:00:00.000Z:EURUSD:MN1:bid:FRACTAL:2024-04-01T00:00:00.000Z:3:high:2024-03-01T00:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.4442,
+       "distance_atr_d1": 0.5408,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1887,6 +1892,36 @@
        }
       },
       {
+       "id": "EURUSD:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:high:2026-11-22T22:00:00.000Z",
+       "ids": [
+        "EURUSD:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:high:2026-11-22T22:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 1.10055,
+       "upper": 1.10055,
+       "bounds_basis": "ORIGINAL",
+       "state": "ACTIVE",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 0.00475,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:high:2026-11-22T22:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
+       ],
+       "distance_atr_d1": 0.657,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 0,
+         "RAID": 0
+        },
+        "last": []
+       }
+      },
+      {
        "id": "EURUSD:D1:bid:FRACTAL:2026-11-19T22:00:00.000Z:3:high:2026-11-18T22:00:00.000Z",
        "ids": [
         "EURUSD:D1:bid:FRACTAL:2026-11-19T22:00:00.000Z:3:high:2026-11-18T22:00:00.000Z"
@@ -1898,12 +1933,12 @@
        "state": "ACTIVE",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.00449,
+       "distance": 0.00517,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-19T22:00:00.000Z:3:high:2026-11-18T22:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-19T22:00:00.000Z:3:high:2026-11-18T22:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.6175,
+       "distance_atr_d1": 0.7151,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1928,44 +1963,12 @@
        "state": "ACTIVE",
        "formation_status": "CONFIRMED",
        "fill": "UNTOUCHED",
-       "distance": 0.00655,
+       "distance": 0.00723,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FVG:2026-11-15T22:00:00.000Z:&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FVG:2026-11-15T22:00:00.000Z:&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.9008,
-       "nested_in": [
-        "EURUSD:W1:bid:FVG:2026-11-15T00:00:00.000Z:"
-       ],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 0,
-         "RAID": 0
-        },
-        "last": []
-       }
-      },
-      {
-       "id": "EURUSD:D1:bid:FVG:2026-11-12T22:00:00.000Z:",
-       "ids": [
-        "EURUSD:D1:bid:FVG:2026-11-12T22:00:00.000Z:"
-       ],
-       "kind": "FVG",
-       "lower": 1.10726,
-       "upper": 1.10817,
-       "bounds_basis": "ORIGINAL",
-       "state": "ACTIVE",
-       "formation_status": "CONFIRMED",
-       "fill": "UNTOUCHED",
-       "distance": 0.01078,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FVG:2026-11-12T22:00:00.000Z:&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
-       ],
-       "distance_atr_d1": 1.4825,
+       "distance_atr_d1": 1,
        "nested_in": [
         "EURUSD:W1:bid:FVG:2026-11-15T00:00:00.000Z:"
        ],
@@ -1994,70 +1997,130 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.00119,
+       "distance": 0.00051,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-18T22:00:00.000Z:3:low:2026-11-17T22:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-18T22:00:00.000Z:3:low:2026-11-17T22:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.1637,
+       "distance_atr_d1": 0.0705,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
         "own_tf_counts": {
          "TOUCH": 0,
          "REJECTION": 0,
-         "ACCEPTANCE": 1,
+         "ACCEPTANCE": 2,
          "RAID": 0
         },
         "last": [
          {
+          "tf": "D1",
+          "type": "ACCEPTANCE",
+          "at": "2026-11-24T22:00:00.000Z"
+         },
+         {
           "tf": "H4",
           "type": "ACCEPTANCE",
           "at": "2026-11-24T14:00:00.000Z"
-         },
-         {
-          "tf": "D1",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-23T22:00:00.000Z"
          }
         ]
+       }
+      },
+      {
+       "id": "EURUSD:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:low:2026-11-22T22:00:00.000Z",
+       "ids": [
+        "EURUSD:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:low:2026-11-22T22:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 1.08806,
+       "upper": 1.08806,
+       "bounds_basis": "ORIGINAL",
+       "state": "ACTIVE",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 0.00774,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:low:2026-11-22T22:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
+       ],
+       "distance_atr_d1": 1.0705,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 0,
+         "RAID": 0
+        },
+        "last": []
        }
       }
      ],
      "at_price": [],
      "eligible": {
       "above": 118,
-      "below": 1,
+      "below": 2,
       "at_price": 0
      },
      "omitted": 113
     },
     "approach": {
-     "through": "2026-11-23T22:00:00.000Z",
-     "closes": "FALLING",
+     "through": "2026-11-24T22:00:00.000Z",
+     "closes": "RISING",
      "bars_without_correction": 1,
-     "move": 0.00657,
-     "move_atr_d1": 0.9035,
+     "move": 0.00627,
+     "move_atr_d1": 0.8672,
      "window_bars": 6,
      "overlapping_body_pairs": 3,
-     "contracting_ranges": 0,
+     "contracting_ranges": 1,
      "nearest_level_on_path": {
-      "id": "EURUSD:D1:bid:FRACTAL:2026-11-18T22:00:00.000Z:3:low:2026-11-17T22:00:00.000Z",
-      "kind": "FRACTAL",
-      "distance": 0.00119,
+      "id": "EURUSD:D1:bid:SNR_CLOSED_BREAK:2026-11-22T22:00:00.000Z:2026-11-18T22:00:00.000Z:EURUSD:MN1:bid:FRACTAL:2024-04-01T00:00:00.000Z:3:high:2024-03-01T00:00:00.000Z",
+      "kind": "SNR_CLOSED_BREAK",
+      "distance": 0.00088,
       "at_price": false
      },
      "flag": "NOT_EVALUATED",
      "thresholds": "NEEDS_SPECIFICATION"
     },
     "strong_fractals": {
-     "total": 79,
+     "total": 80,
      "by_flag": {
       "VC_AT_FRACTAL": 72,
-      "RAIDED_PRIOR_FRACTAL": 36,
+      "RAIDED_PRIOR_FRACTAL": 37,
       "BOTH": 29
      },
      "items": [
+      {
+       "id": "EURUSD:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:high:2026-11-22T22:00:00.000Z",
+       "price": 1.10055,
+       "confirmed_at": "2026-11-24T22:00:00.000Z",
+       "state": "ACTIVE",
+       "flags": [
+        "VC_AT_FRACTAL"
+       ],
+       "vc": [
+        {
+         "id": "EURUSD:D1:bid:SNR_CLOSED_BREAK:2026-11-22T22:00:00.000Z:2026-11-18T22:00:00.000Z:EURUSD:MN1:bid:FRACTAL:2024-04-01T00:00:00.000Z:3:high:2024-03-01T00:00:00.000Z",
+         "lower": 1.09668,
+         "upper": 1.09668
+        }
+       ],
+       "raided_fractal_ids": []
+      },
+      {
+       "id": "EURUSD:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:low:2026-11-22T22:00:00.000Z",
+       "price": 1.08806,
+       "confirmed_at": "2026-11-24T22:00:00.000Z",
+       "state": "ACTIVE",
+       "flags": [
+        "RAIDED_PRIOR_FRACTAL"
+       ],
+       "vc": [],
+       "raided_fractal_ids": [
+        "EURUSD:D1:bid:FRACTAL:2026-11-18T22:00:00.000Z:3:low:2026-11-17T22:00:00.000Z"
+       ]
+      },
       {
        "id": "EURUSD:D1:bid:FRACTAL:2026-11-19T22:00:00.000Z:3:high:2026-11-18T22:00:00.000Z",
        "price": 1.10097,
@@ -2074,49 +2137,6 @@
         }
        ],
        "raided_fractal_ids": []
-      },
-      {
-       "id": "EURUSD:D1:bid:FRACTAL:2026-11-10T22:00:00.000Z:3:high:2026-11-09T22:00:00.000Z",
-       "price": 1.12512,
-       "confirmed_at": "2026-11-11T22:00:00.000Z",
-       "state": "ACTIVE",
-       "flags": [
-        "VC_AT_FRACTAL"
-       ],
-       "vc": [
-        {
-         "id": "EURUSD:D1:bid:SNR_CLOSED_BREAK:2026-11-10T22:00:00.000Z:2026-11-05T22:00:00.000Z:EURUSD:MN1:bid:FRACTAL:2024-10-01T00:00:00.000Z:3:high:2024-09-01T00:00:00.000Z",
-         "lower": 1.11397,
-         "upper": 1.11397
-        }
-       ],
-       "raided_fractal_ids": []
-      },
-      {
-       "id": "EURUSD:D1:bid:FRACTAL:2026-11-04T22:00:00.000Z:3:high:2026-11-03T22:00:00.000Z",
-       "price": 1.1273,
-       "confirmed_at": "2026-11-05T22:00:00.000Z",
-       "state": "ACTIVE",
-       "flags": [
-        "VC_AT_FRACTAL",
-        "RAIDED_PRIOR_FRACTAL"
-       ],
-       "vc": [
-        {
-         "id": "EURUSD:D1:bid:RB_TWO_CANDLE:2026-11-04T22:00:00.000Z:EURUSD:D1:bid:FRACTAL:2026-11-02T22:00:00.000Z:3:high:2026-11-01T22:00:00.000Z",
-         "lower": 1.12278,
-         "upper": 1.12278
-        },
-        {
-         "id": "EURUSD:D1:bid:RB_TWO_CANDLE:2026-11-04T22:00:00.000Z:EURUSD:D1:bid:FRACTAL:2026-10-22T21:00:00.000Z:3:high:2026-10-21T21:00:00.000Z",
-         "lower": 1.12278,
-         "upper": 1.12278
-        }
-       ],
-       "raided_fractal_ids": [
-        "EURUSD:D1:bid:FRACTAL:2026-10-18T21:00:00.000Z:3:high:2026-10-15T21:00:00.000Z",
-        "EURUSD:D1:bid:FRACTAL:2026-10-20T21:00:00.000Z:3:high:2026-10-19T21:00:00.000Z"
-       ]
       }
      ],
      "significance": "NOT_EVALUATED"
@@ -2150,31 +2170,13 @@
     },
     "recent_fractals": [
      {
-      "id": "EURUSD:D1:bid:FRACTAL:2026-11-02T22:00:00.000Z:3:high:2026-11-01T22:00:00.000Z",
-      "polarity": "high",
-      "price": 1.1237,
-      "confirmed_at": "2026-11-03T22:00:00.000Z",
-      "relation": "LH",
-      "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-02T22:00:00.000Z:3:high:2026-11-01T22:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
-     },
-     {
-      "id": "EURUSD:D1:bid:FRACTAL:2026-11-04T22:00:00.000Z:3:high:2026-11-03T22:00:00.000Z",
-      "polarity": "high",
-      "price": 1.1273,
-      "confirmed_at": "2026-11-05T22:00:00.000Z",
-      "relation": "HH",
-      "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-04T22:00:00.000Z:3:high:2026-11-03T22:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
-     },
-     {
       "id": "EURUSD:D1:bid:FRACTAL:2026-11-08T22:00:00.000Z:3:low:2026-11-05T22:00:00.000Z",
       "polarity": "low",
       "price": 1.11306,
       "confirmed_at": "2026-11-09T22:00:00.000Z",
       "relation": "HL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-08T22:00:00.000Z:3:low:2026-11-05T22:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-08T22:00:00.000Z:3:low:2026-11-05T22:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:D1:bid:FRACTAL:2026-11-10T22:00:00.000Z:3:high:2026-11-09T22:00:00.000Z",
@@ -2183,7 +2185,7 @@
       "confirmed_at": "2026-11-11T22:00:00.000Z",
       "relation": "LH",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-10T22:00:00.000Z:3:high:2026-11-09T22:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-10T22:00:00.000Z:3:high:2026-11-09T22:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:D1:bid:FRACTAL:2026-11-18T22:00:00.000Z:3:low:2026-11-17T22:00:00.000Z",
@@ -2192,7 +2194,7 @@
       "confirmed_at": "2026-11-19T22:00:00.000Z",
       "relation": "LL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-18T22:00:00.000Z:3:low:2026-11-17T22:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-18T22:00:00.000Z:3:low:2026-11-17T22:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:D1:bid:FRACTAL:2026-11-19T22:00:00.000Z:3:high:2026-11-18T22:00:00.000Z",
@@ -2201,22 +2203,40 @@
       "confirmed_at": "2026-11-20T22:00:00.000Z",
       "relation": "LH",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-19T22:00:00.000Z:3:high:2026-11-18T22:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-19T22:00:00.000Z:3:high:2026-11-18T22:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
+     },
+     {
+      "id": "EURUSD:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:high:2026-11-22T22:00:00.000Z",
+      "polarity": "high",
+      "price": 1.10055,
+      "confirmed_at": "2026-11-24T22:00:00.000Z",
+      "relation": "LH",
+      "state": "ACTIVE",
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:high:2026-11-22T22:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
+     },
+     {
+      "id": "EURUSD:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:low:2026-11-22T22:00:00.000Z",
+      "polarity": "low",
+      "price": 1.08806,
+      "confirmed_at": "2026-11-24T22:00:00.000Z",
+      "relation": "LL",
+      "state": "ACTIVE",
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:low:2026-11-22T22:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      }
     ],
     "findings_by_kind": {
-     "FRACTAL": 93,
+     "FRACTAL": 94,
      "FVG": 31,
-     "RAID": 77,
+     "RAID": 76,
      "TOUCH": 2,
-     "RB_TWO_CANDLE": 51,
+     "RB_TWO_CANDLE": 54,
      "SNR_CLOSED_BREAK": 84,
      "FRACTAL_INSIDE_POI": 13
     },
     "links": {
-     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&timeframe=D1&limit=50&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011",
-     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=EURUSD&side=bid&grid=ny&timeframe=D1&limit=200&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011",
-     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&view=structure&timeframe=D1&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&timeframe=D1&limit=50&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a",
+     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=EURUSD&side=bid&grid=ny&timeframe=D1&limit=200&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a",
+     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&view=structure&timeframe=D1&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
     }
    },
    "H4": {
@@ -2227,33 +2247,9 @@
      "SESSION_COVERAGE_NOT_INDEPENDENTLY_VERIFIED",
      "GAP_BOUNDARY_NO_PATTERN_STITCHING"
     ],
-    "last_closed_at": "2026-11-24T14:00:00.000Z",
+    "last_closed_at": "2026-11-25T02:00:00.000Z",
     "closed_candles": 239,
     "last_closed_candles": [
-     {
-      "time": "2026-11-20T14:00:00.000Z",
-      "closed_at": "2026-11-20T18:00:00.000Z",
-      "open": 1.09938,
-      "high": 1.09969,
-      "low": 1.0971,
-      "close": 1.09727
-     },
-     {
-      "time": "2026-11-20T18:00:00.000Z",
-      "closed_at": "2026-11-20T22:00:00.000Z",
-      "open": 1.09728,
-      "high": 1.09733,
-      "low": 1.0961,
-      "close": 1.09678
-     },
-     {
-      "time": "2026-11-22T22:00:00.000Z",
-      "closed_at": "2026-11-23T02:00:00.000Z",
-      "open": 1.09725,
-      "high": 1.09856,
-      "low": 1.09654,
-      "close": 1.09838
-     },
      {
       "time": "2026-11-23T02:00:00.000Z",
       "closed_at": "2026-11-23T06:00:00.000Z",
@@ -2325,6 +2321,30 @@
       "high": 1.09684,
       "low": 1.09281,
       "close": 1.09648
+     },
+     {
+      "time": "2026-11-24T14:00:00.000Z",
+      "closed_at": "2026-11-24T18:00:00.000Z",
+      "open": 1.09647,
+      "high": 1.098,
+      "low": 1.09582,
+      "close": 1.09731
+     },
+     {
+      "time": "2026-11-24T18:00:00.000Z",
+      "closed_at": "2026-11-24T22:00:00.000Z",
+      "open": 1.09729,
+      "high": 1.09746,
+      "low": 1.09632,
+      "close": 1.09648
+     },
+     {
+      "time": "2026-11-24T22:00:00.000Z",
+      "closed_at": "2026-11-25T02:00:00.000Z",
+      "open": 1.09636,
+      "high": 1.0966,
+      "low": 1.09552,
+      "close": 1.0958
      }
     ],
     "dealing_range": {
@@ -2339,20 +2359,20 @@
      },
      "current_h4_position": "PREMIUM",
      "reference": {
-      "price": 1.09648,
-      "at": "2026-11-24T14:00:00.000Z",
+      "price": 1.0958,
+      "at": "2026-11-25T02:00:00.000Z",
       "basis": "LAST_CLOSED_OWN_TF"
      },
      "premium_discount": {
       "high": 1.10055,
       "low": 1.08806,
       "eq": 1.0943049999999999,
-      "price": 1.09648,
+      "price": 1.0958,
       "price_basis": "LAST_CLOSED_H4_CLOSE",
-      "price_position_pct": 67.41,
+      "price_position_pct": 61.97,
       "zone": "PREMIUM",
-      "distance_to_high": 0.00407,
-      "distance_to_low": 0.00842,
+      "distance_to_high": 0.00475,
+      "distance_to_low": 0.00774,
       "dr_status": "ESTABLISHED",
       "confirmed": true,
       "selection": "AUTOMATIC_CANDIDATE",
@@ -2361,6 +2381,47 @@
     },
     "levels": {
      "above": [
+      {
+       "id": "EURUSD:H4:bid:FRACTAL:2026-11-20T06:00:00.000Z:3:low:2026-11-20T02:00:00.000Z",
+       "ids": [
+        "EURUSD:H4:bid:FRACTAL:2026-11-20T06:00:00.000Z:3:low:2026-11-20T02:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 1.0961,
+       "upper": 1.0961,
+       "bounds_basis": "ORIGINAL",
+       "state": "CONSUMED",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 0.0003,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-20T06:00:00.000Z:3:low:2026-11-20T02:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
+       ],
+       "distance_atr_d1": 0.0415,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 1,
+         "REJECTION": 0,
+         "ACCEPTANCE": 3,
+         "RAID": 2
+        },
+        "last": [
+         {
+          "tf": "H4",
+          "type": "ACCEPTANCE",
+          "at": "2026-11-25T02:00:00.000Z"
+         },
+         {
+          "tf": "H4",
+          "type": "RAID",
+          "at": "2026-11-24T18:00:00.000Z"
+         }
+        ]
+       }
+      },
       {
        "id": "EURUSD:H4:bid:FRACTAL:2026-11-17T14:00:00.000Z:3:low:2026-11-17T10:00:00.000Z",
        "ids": [
@@ -2373,89 +2434,64 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.00029,
+       "distance": 0.00097,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-17T14:00:00.000Z:3:low:2026-11-17T10:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-17T14:00:00.000Z:3:low:2026-11-17T10:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.0399,
+       "distance_atr_d1": 0.1342,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
         "own_tf_counts": {
          "TOUCH": 1,
          "REJECTION": 0,
-         "ACCEPTANCE": 5,
+         "ACCEPTANCE": 7,
          "RAID": 9
         },
         "last": [
          {
           "tf": "H4",
-          "type": "RAID",
-          "at": "2026-11-24T14:00:00.000Z"
+          "type": "ACCEPTANCE",
+          "at": "2026-11-24T22:00:00.000Z"
          },
          {
           "tf": "H4",
           "type": "ACCEPTANCE",
-          "at": "2026-11-23T14:00:00.000Z"
+          "at": "2026-11-24T18:00:00.000Z"
          }
         ]
        }
       },
       {
-       "id": "EURUSD:H4:bid:FVG:2026-11-23T14:00:00.000Z:",
+       "id": "EURUSD:H4:bid:RB_TWO_CANDLE:2026-11-24T18:00:00.000Z:EURUSD:H4:bid:FVG:2026-11-23T10:00:00.000Z:",
        "ids": [
-        "EURUSD:H4:bid:FVG:2026-11-23T14:00:00.000Z:"
+        "EURUSD:H4:bid:RB_TWO_CANDLE:2026-11-24T18:00:00.000Z:EURUSD:H4:bid:FVG:2026-11-23T10:00:00.000Z:"
        ],
-       "kind": "FVG",
-       "lower": 1.09684,
+       "kind": "RB_TWO_CANDLE",
+       "lower": 1.09731,
        "upper": 1.09731,
-       "bounds_basis": "FVG_REMAINING",
-       "state": "ACTIVE",
-       "formation_status": "CONFIRMED",
-       "fill": "PARTIAL",
-       "distance": 0.00036,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FVG:2026-11-23T14:00:00.000Z:&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
-       ],
-       "distance_atr_d1": 0.0495,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 1,
-         "REJECTION": 0,
-         "ACCEPTANCE": 0,
-         "RAID": 0
-        },
-        "last": [
-         {
-          "tf": "H4",
-          "type": "TOUCH",
-          "at": "2026-11-24T14:00:00.000Z"
-         }
-        ]
-       }
-      },
-      {
-       "id": "EURUSD:H4:bid:FVG:2026-11-23T10:00:00.000Z:",
-       "ids": [
-        "EURUSD:H4:bid:FVG:2026-11-23T10:00:00.000Z:"
-       ],
-       "kind": "FVG",
-       "lower": 1.09756,
-       "upper": 1.09778,
        "bounds_basis": "ORIGINAL",
-       "state": "ACTIVE",
+       "state": "CANDIDATE",
        "formation_status": "CONFIRMED",
-       "fill": "UNTOUCHED",
-       "distance": 0.00108,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FVG:2026-11-23T10:00:00.000Z:&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+       "fill": null,
+       "distance": 0.00151,
+       "contexts": [
+        {
+         "id": "EURUSD:H4:bid:FVG:2026-11-23T10:00:00.000Z:",
+         "relationships": [
+          "kl_id",
+          "rb_fvg_id"
+         ],
+         "evidence_ids": [
+          "EURUSD:H4:bid:RB_TWO_CANDLE:2026-11-24T18:00:00.000Z:EURUSD:H4:bid:FVG:2026-11-23T10:00:00.000Z:"
+         ]
+        }
        ],
-       "distance_atr_d1": 0.1485,
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:RB_TWO_CANDLE:2026-11-24T18:00:00.000Z:EURUSD:H4:bid:FVG:2026-11-23T10:00:00.000Z:&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
+       ],
+       "distance_atr_d1": 0.2089,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -2480,12 +2516,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.00149,
+       "distance": 0.00217,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-18T02:00:00.000Z:3:low:2026-11-17T22:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-18T02:00:00.000Z:3:low:2026-11-17T22:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.2049,
+       "distance_atr_d1": 0.3001,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -2493,106 +2529,54 @@
          "TOUCH": 0,
          "REJECTION": 0,
          "ACCEPTANCE": 6,
-         "RAID": 6
+         "RAID": 7
         },
         "last": [
          {
           "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-23T10:00:00.000Z"
+          "type": "RAID",
+          "at": "2026-11-24T18:00:00.000Z"
          },
          {
           "tf": "H4",
-          "type": "RAID",
-          "at": "2026-11-23T06:00:00.000Z"
+          "type": "ACCEPTANCE",
+          "at": "2026-11-23T10:00:00.000Z"
          }
         ]
        }
       },
       {
-       "id": "EURUSD:H4:bid:FRACTAL:2026-11-18T18:00:00.000Z:3:high:2026-11-18T14:00:00.000Z",
+       "id": "EURUSD:H4:bid:FRACTAL:2026-11-24T18:00:00.000Z:3:high:2026-11-24T14:00:00.000Z",
        "ids": [
-        "EURUSD:H4:bid:FRACTAL:2026-11-18T18:00:00.000Z:3:high:2026-11-18T14:00:00.000Z"
+        "EURUSD:H4:bid:FRACTAL:2026-11-24T18:00:00.000Z:3:high:2026-11-24T14:00:00.000Z"
        ],
        "kind": "FRACTAL",
-       "lower": 1.09814,
-       "upper": 1.09814,
+       "lower": 1.098,
+       "upper": 1.098,
        "bounds_basis": "ORIGINAL",
-       "state": "CONSUMED",
+       "state": "ACTIVE",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.00166,
+       "distance": 0.0022,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-18T18:00:00.000Z:3:high:2026-11-18T14:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-24T18:00:00.000Z:3:high:2026-11-24T14:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.2283,
+       "distance_atr_d1": 0.3043,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
         "own_tf_counts": {
          "TOUCH": 0,
          "REJECTION": 0,
-         "ACCEPTANCE": 5,
-         "RAID": 3
+         "ACCEPTANCE": 0,
+         "RAID": 0
         },
-        "last": [
-         {
-          "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-23T10:00:00.000Z"
-         },
-         {
-          "tf": "H4",
-          "type": "RAID",
-          "at": "2026-11-23T06:00:00.000Z"
-         }
-        ]
+        "last": []
        }
       }
      ],
      "below": [
-      {
-       "id": "EURUSD:H4:bid:FRACTAL:2026-11-20T06:00:00.000Z:3:low:2026-11-20T02:00:00.000Z",
-       "ids": [
-        "EURUSD:H4:bid:FRACTAL:2026-11-20T06:00:00.000Z:3:low:2026-11-20T02:00:00.000Z"
-       ],
-       "kind": "FRACTAL",
-       "lower": 1.0961,
-       "upper": 1.0961,
-       "bounds_basis": "ORIGINAL",
-       "state": "CONSUMED",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 0.00038,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-20T06:00:00.000Z:3:low:2026-11-20T02:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
-       ],
-       "distance_atr_d1": 0.0523,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 1,
-         "REJECTION": 0,
-         "ACCEPTANCE": 2,
-         "RAID": 1
-        },
-        "last": [
-         {
-          "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-24T14:00:00.000Z"
-         },
-         {
-          "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-23T14:00:00.000Z"
-         }
-        ]
-       }
-      },
       {
        "id": "EURUSD:H4:bid:FRACTAL:2026-11-20T14:00:00.000Z:3:low:2026-11-20T10:00:00.000Z",
        "ids": [
@@ -2605,12 +2589,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.00083,
+       "distance": 0.00015,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-20T14:00:00.000Z:3:low:2026-11-20T10:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-20T14:00:00.000Z:3:low:2026-11-20T10:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.1141,
+       "distance_atr_d1": 0.0207,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -2618,18 +2602,18 @@
          "TOUCH": 0,
          "REJECTION": 0,
          "ACCEPTANCE": 2,
-         "RAID": 0
+         "RAID": 1
         },
         "last": [
          {
           "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-24T14:00:00.000Z"
+          "type": "RAID",
+          "at": "2026-11-25T02:00:00.000Z"
          },
          {
           "tf": "H4",
           "type": "ACCEPTANCE",
-          "at": "2026-11-23T14:00:00.000Z"
+          "at": "2026-11-24T14:00:00.000Z"
          }
         ]
        }
@@ -2646,17 +2630,17 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.00096,
+       "distance": 0.00028,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-19T06:00:00.000Z:3:low:2026-11-19T02:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-19T06:00:00.000Z:3:low:2026-11-19T02:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.132,
+       "distance_atr_d1": 0.0387,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
         "own_tf_counts": {
-         "TOUCH": 0,
+         "TOUCH": 1,
          "REJECTION": 0,
          "ACCEPTANCE": 2,
          "RAID": 0
@@ -2664,13 +2648,49 @@
         "last": [
          {
           "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-24T14:00:00.000Z"
+          "type": "TOUCH",
+          "at": "2026-11-25T02:00:00.000Z"
          },
          {
           "tf": "H4",
           "type": "ACCEPTANCE",
-          "at": "2026-11-23T14:00:00.000Z"
+          "at": "2026-11-24T14:00:00.000Z"
+         }
+        ]
+       }
+      },
+      {
+       "id": "EURUSD:H4:bid:FVG:2026-11-24T14:00:00.000Z:",
+       "ids": [
+        "EURUSD:H4:bid:FVG:2026-11-24T14:00:00.000Z:"
+       ],
+       "kind": "FVG",
+       "lower": 1.09369,
+       "upper": 1.09552,
+       "bounds_basis": "FVG_REMAINING",
+       "state": "ACTIVE",
+       "formation_status": "CONFIRMED",
+       "fill": "PARTIAL",
+       "distance": 0.00028,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FVG:2026-11-24T14:00:00.000Z:&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
+       ],
+       "distance_atr_d1": 0.0387,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 1,
+         "REJECTION": 0,
+         "ACCEPTANCE": 0,
+         "RAID": 0
+        },
+        "last": [
+         {
+          "tf": "H4",
+          "type": "TOUCH",
+          "at": "2026-11-25T02:00:00.000Z"
          }
         ]
        }
@@ -2687,12 +2707,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 0.00119,
+       "distance": 0.00051,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-18T14:00:00.000Z:3:low:2026-11-18T10:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-18T14:00:00.000Z:3:low:2026-11-18T10:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.1637,
+       "distance_atr_d1": 0.0705,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -2728,12 +2748,12 @@
        "state": "ACTIVE",
        "formation_status": "CONFIRMED",
        "fill": "UNTOUCHED",
-       "distance": 0.00367,
+       "distance": 0.00299,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FVG:2026-11-24T10:00:00.000Z:&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FVG:2026-11-24T10:00:00.000Z:&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
        ],
-       "distance_atr_d1": 0.5047,
+       "distance_atr_d1": 0.4136,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -2749,38 +2769,55 @@
      ],
      "at_price": [],
      "eligible": {
-      "above": 109,
+      "above": 108,
       "below": 9,
       "at_price": 0
      },
-     "omitted": 108
+     "omitted": 107
     },
     "approach": {
-     "through": "2026-11-24T14:00:00.000Z",
-     "closes": "RISING",
+     "through": "2026-11-25T02:00:00.000Z",
+     "closes": "FALLING",
      "bars_without_correction": 2,
-     "move": 0.00567,
-     "move_atr_d1": 0.7798,
+     "move": 0.00151,
+     "move_atr_d1": 0.2089,
      "window_bars": 6,
-     "overlapping_body_pairs": 5,
-     "contracting_ranges": 1,
+     "overlapping_body_pairs": 4,
+     "contracting_ranges": 4,
      "nearest_level_on_path": {
-      "id": "EURUSD:H4:bid:FRACTAL:2026-11-17T14:00:00.000Z:3:low:2026-11-17T10:00:00.000Z",
+      "id": "EURUSD:H4:bid:FRACTAL:2026-11-20T14:00:00.000Z:3:low:2026-11-20T10:00:00.000Z",
       "kind": "FRACTAL",
-      "distance": 0.00029,
+      "distance": 0.00015,
       "at_price": false
      },
      "flag": "NOT_EVALUATED",
      "thresholds": "NEEDS_SPECIFICATION"
     },
     "strong_fractals": {
-     "total": 73,
+     "total": 71,
      "by_flag": {
-      "VC_AT_FRACTAL": 62,
-      "RAIDED_PRIOR_FRACTAL": 36,
-      "BOTH": 25
+      "VC_AT_FRACTAL": 61,
+      "RAIDED_PRIOR_FRACTAL": 34,
+      "BOTH": 24
      },
      "items": [
+      {
+       "id": "EURUSD:H4:bid:FRACTAL:2026-11-24T18:00:00.000Z:3:high:2026-11-24T14:00:00.000Z",
+       "price": 1.098,
+       "confirmed_at": "2026-11-24T22:00:00.000Z",
+       "state": "ACTIVE",
+       "flags": [
+        "VC_AT_FRACTAL"
+       ],
+       "vc": [
+        {
+         "id": "EURUSD:H4:bid:RB_TWO_CANDLE:2026-11-24T18:00:00.000Z:EURUSD:H4:bid:FVG:2026-11-23T10:00:00.000Z:",
+         "lower": 1.09731,
+         "upper": 1.09731
+        }
+       ],
+       "raided_fractal_ids": []
+      },
       {
        "id": "EURUSD:H4:bid:FRACTAL:2026-11-24T10:00:00.000Z:3:low:2026-11-24T06:00:00.000Z",
        "price": 1.08959,
@@ -2819,26 +2856,6 @@
         }
        ],
        "raided_fractal_ids": []
-      },
-      {
-       "id": "EURUSD:H4:bid:FRACTAL:2026-11-20T14:00:00.000Z:3:low:2026-11-20T10:00:00.000Z",
-       "price": 1.09565,
-       "confirmed_at": "2026-11-20T18:00:00.000Z",
-       "state": "CONSUMED",
-       "flags": [
-        "VC_AT_FRACTAL",
-        "RAIDED_PRIOR_FRACTAL"
-       ],
-       "vc": [
-        {
-         "id": "EURUSD:H4:bid:SNR_CLOSED_BREAK:2026-11-20T10:00:00.000Z:2026-11-20T02:00:00.000Z:EURUSD:MN1:bid:FRACTAL:2026-07-01T00:00:00.000Z:3:low:2026-06-01T00:00:00.000Z",
-         "lower": 1.0978,
-         "upper": 1.0978
-        }
-       ],
-       "raided_fractal_ids": [
-        "EURUSD:H4:bid:FRACTAL:2026-11-20T06:00:00.000Z:3:low:2026-11-20T02:00:00.000Z"
-       ]
       }
      ],
      "significance": "NOT_EVALUATED"
@@ -2872,22 +2889,13 @@
     },
     "recent_fractals": [
      {
-      "id": "EURUSD:H4:bid:FRACTAL:2026-11-20T14:00:00.000Z:3:high:2026-11-20T10:00:00.000Z",
-      "polarity": "high",
-      "price": 1.09997,
-      "confirmed_at": "2026-11-20T18:00:00.000Z",
-      "relation": "LH",
-      "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-20T14:00:00.000Z:3:high:2026-11-20T10:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
-     },
-     {
       "id": "EURUSD:H4:bid:FRACTAL:2026-11-20T14:00:00.000Z:3:low:2026-11-20T10:00:00.000Z",
       "polarity": "low",
       "price": 1.09565,
       "confirmed_at": "2026-11-20T18:00:00.000Z",
       "relation": "LL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-20T14:00:00.000Z:3:low:2026-11-20T10:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-20T14:00:00.000Z:3:low:2026-11-20T10:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:H4:bid:FRACTAL:2026-11-23T10:00:00.000Z:3:high:2026-11-23T06:00:00.000Z",
@@ -2896,7 +2904,7 @@
       "confirmed_at": "2026-11-23T14:00:00.000Z",
       "relation": "FIRST_OBSERVED",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-23T10:00:00.000Z:3:high:2026-11-23T06:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-23T10:00:00.000Z:3:high:2026-11-23T06:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:H4:bid:FRACTAL:2026-11-23T18:00:00.000Z:3:low:2026-11-23T14:00:00.000Z",
@@ -2905,7 +2913,7 @@
       "confirmed_at": "2026-11-23T22:00:00.000Z",
       "relation": "FIRST_OBSERVED",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-23T18:00:00.000Z:3:low:2026-11-23T14:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-23T18:00:00.000Z:3:low:2026-11-23T14:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:H4:bid:FRACTAL:2026-11-24T02:00:00.000Z:3:high:2026-11-23T22:00:00.000Z",
@@ -2914,7 +2922,7 @@
       "confirmed_at": "2026-11-24T06:00:00.000Z",
       "relation": "LH",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-24T02:00:00.000Z:3:high:2026-11-23T22:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-24T02:00:00.000Z:3:high:2026-11-23T22:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      },
      {
       "id": "EURUSD:H4:bid:FRACTAL:2026-11-24T10:00:00.000Z:3:low:2026-11-24T06:00:00.000Z",
@@ -2923,32 +2931,41 @@
       "confirmed_at": "2026-11-24T14:00:00.000Z",
       "relation": "HL",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-24T10:00:00.000Z:3:low:2026-11-24T06:00:00.000Z&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-24T10:00:00.000Z:3:low:2026-11-24T06:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
+     },
+     {
+      "id": "EURUSD:H4:bid:FRACTAL:2026-11-24T18:00:00.000Z:3:high:2026-11-24T14:00:00.000Z",
+      "polarity": "high",
+      "price": 1.098,
+      "confirmed_at": "2026-11-24T22:00:00.000Z",
+      "relation": "HH",
+      "state": "ACTIVE",
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&id=EURUSD:H4:bid:FRACTAL:2026-11-24T18:00:00.000Z:3:high:2026-11-24T14:00:00.000Z&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
      }
     ],
     "findings_by_kind": {
-     "FRACTAL": 97,
+     "FRACTAL": 96,
      "FVG": 51,
-     "RAID": 55,
+     "RAID": 53,
      "TOUCH": 3,
-     "RB_TWO_CANDLE": 29,
-     "SNR_CLOSED_BREAK": 62,
+     "RB_TWO_CANDLE": 32,
+     "SNR_CLOSED_BREAK": 60,
      "FRACTAL_INSIDE_POI": 21
     },
     "links": {
-     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&timeframe=H4&limit=50&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011",
-     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=EURUSD&side=bid&grid=ny&timeframe=H4&limit=200&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011",
-     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&view=structure&timeframe=H4&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011"
+     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&timeframe=H4&limit=50&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a",
+     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=EURUSD&side=bid&grid=ny&timeframe=H4&limit=200&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a",
+     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&view=structure&timeframe=H4&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a"
     }
    }
   },
   "coverage": {
-   "findings_total": 967,
+   "findings_total": 968,
    "history_scope": "AVAILABLE_PROVIDER_WINDOW_NOT_FULL_MARKET_HISTORY",
    "all_findings_via": "links.evidence_all"
   },
   "omitted": {
-   "levels": 311,
+   "levels": 310,
    "levels_size_trimmed": 0,
    "fact_details_size_trimmed": [],
    "findings_not_listed": "ALL_FINDINGS_PAGINATED_VIA_LINKS"
@@ -2968,7 +2985,7 @@
    "self": "https://capitalive.vercel.app/api/brief?symbol=EURUSD&side=bid&grid=ny",
    "desk_report": "https://capitalive.vercel.app/api/desk-report?symbol=EURUSD&side=bid&grid=ny",
    "market_context": "https://capitalive.vercel.app/api/desk-report?symbol=EURUSD&side=bid&grid=ny&view=market-context",
-   "evidence_all": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&limit=50&snapshot_sha256=ee244b2a8aa176403578db2a31227291320d3222cb5c9253464755eea3876011",
+   "evidence_all": "https://capitalive.vercel.app/api/pa-evidence?symbol=EURUSD&side=bid&grid=ny&limit=50&snapshot_sha256=c4d9b67f6cb58e6806f5c84871f3311d6d4332890af846f692cc2658b5c2114a",
    "docs": "https://capitalive.vercel.app/llms.txt"
   },
   "trading_enabled": false
