@@ -1,6 +1,6 @@
 {
- "published_at": "2026-11-26T09:27:10.454Z",
- "requested_at": "2026-11-26T09:26:37.321Z",
+ "published_at": "2026-11-26T19:34:32.946Z",
+ "requested_at": "2026-11-26T19:33:42.838Z",
  "source": "https://capitalive.vercel.app/api/brief?symbols=NAS100%2CEU50%2CEURUSD&latest=12",
  "brief": {
   "schema_version": "pa-brief-v1",
@@ -26,41 +26,41 @@
   "status": "PARTIAL",
   "data_quality": "PARTIAL",
   "observations_available": true,
-  "generated_at": "2026-11-26T09:26:46.566Z",
-  "as_of": "2026-11-26T09:26:39.731Z",
-  "expires_at": "2026-11-26T09:28:46.293Z",
-  "snapshot_sha256": "d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8",
+  "generated_at": "2026-11-26T19:34:04.764Z",
+  "as_of": "2026-11-26T19:33:45.382Z",
+  "expires_at": "2026-11-26T19:34:16.318Z",
+  "snapshot_sha256": "f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807",
   "source": {
    "provider": "Capital.com",
    "environment": "demo",
    "analysis_schema": "pa-engine-v6",
    "price_side": "bid",
    "engine_commit": "d8341967176d12ea2c49fb751081a2f8ee1a4c6e",
-   "evidence_sha256": "d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8",
+   "evidence_sha256": "f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807",
    "demo_live_equivalence": "NOT_ESTABLISHED",
    "full_ohlc_published": false
   },
   "quote": {
-   "bid": 26137.8,
-   "ask": 26139.6,
-   "spread": 1.7999999999992724,
-   "provider_timestamp": "2026-11-26T09:26:46.293Z",
-   "retrieved_at": "2026-11-26T09:26:46.562Z",
-   "source_type": "WEBSOCKET",
+   "bid": 26183.5,
+   "ask": 26187.5,
+   "spread": 4,
+   "provider_timestamp": "2026-11-26T19:32:16.318Z",
+   "retrieved_at": "2026-11-26T19:34:04.763Z",
+   "source_type": "REST",
    "market_status": "TRADEABLE",
-   "provider_age_seconds": 0.273,
+   "provider_age_seconds": 108.446,
    "fresh": true,
    "used_as_closed_evidence": false
   },
   "freshness": {
    "quote_status": "FRESH",
-   "quote_retrieved_at": "2026-11-26T09:26:46.562Z",
+   "quote_retrieved_at": "2026-11-26T19:34:04.763Z",
    "data_quality": "PARTIAL",
    "stale_reasons": [],
    "quote_max_seconds": 120,
    "h4_max_delay_seconds": 600,
    "h4_delay_seconds": 0,
-   "source_age_seconds": 6.835,
+   "source_age_seconds": 19.382,
    "delivery_max_seconds": 120
   },
   "warnings": [
@@ -70,8 +70,8 @@
    "PROVIDER_VALIDATION_LOSS"
   ],
   "reference": {
-   "price": 26264.8,
-   "at": "2026-11-26T06:00:00.000Z",
+   "price": 26170.6,
+   "at": "2026-11-26T18:00:00.000Z",
    "basis": "LAST_CLOSED_H4_CLOSE"
   },
   "atr_d1": {
@@ -250,12 +250,12 @@
       "high": 30758.3,
       "low": 22779.3,
       "eq": 26768.8,
-      "price": 26264.8,
+      "price": 26170.6,
       "price_basis": "LAST_CLOSED_H4_CLOSE",
-      "price_position_pct": 43.68,
+      "price_position_pct": 42.5,
       "zone": "DISCOUNT",
-      "distance_to_high": 4493.5,
-      "distance_to_low": 3485.5,
+      "distance_to_high": 4587.7,
+      "distance_to_low": 3391.3,
       "dr_status": "ESTABLISHED",
       "confirmed": true,
       "selection": "AUTOMATIC_CANDIDATE",
@@ -264,6 +264,88 @@
     },
     "levels": {
      "above": [
+      {
+       "id": "NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z",
+       "ids": [
+        "NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 26217.6,
+       "upper": 26217.6,
+       "bounds_basis": "ORIGINAL",
+       "state": "CONSUMED",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 47,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 0.0434,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 1,
+         "RAID": 0
+        },
+        "last": [
+         {
+          "tf": "H4",
+          "type": "ACCEPTANCE",
+          "at": "2026-11-26T18:00:00.000Z"
+         },
+         {
+          "tf": "H4",
+          "type": "ACCEPTANCE",
+          "at": "2026-11-26T14:00:00.000Z"
+         }
+        ]
+       }
+      },
+      {
+       "id": "NAS100:MN1:bid:FRACTAL:2025-11-01T00:00:00.000Z:3:high:2025-10-01T00:00:00.000Z",
+       "ids": [
+        "NAS100:MN1:bid:FRACTAL:2025-11-01T00:00:00.000Z:3:high:2025-10-01T00:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 26255.9,
+       "upper": 26255.9,
+       "bounds_basis": "ORIGINAL",
+       "state": "CONSUMED",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 85.3,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2025-11-01T00:00:00.000Z:3:high:2025-10-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 0.0788,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 1,
+         "RAID": 0
+        },
+        "last": [
+         {
+          "tf": "H4",
+          "type": "RAID",
+          "at": "2026-11-26T18:00:00.000Z"
+         },
+         {
+          "tf": "H4",
+          "type": "RAID",
+          "at": "2026-11-26T14:00:00.000Z"
+         }
+        ]
+       }
+      },
       {
        "id": "NAS100:MN1:bid:FRACTAL:2026-08-01T00:00:00.000Z:3:low:2026-07-01T00:00:00.000Z",
        "ids": [
@@ -276,12 +358,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 715.8,
+       "distance": 810,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2026-08-01T00:00:00.000Z:3:low:2026-07-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2026-08-01T00:00:00.000Z:3:low:2026-07-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.6609,
+       "distance_atr_d1": 0.7479,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -317,7 +399,7 @@
        "state": "CANDIDATE",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 1901.3,
+       "distance": 1995.5,
        "contexts": [
         {
          "id": "NAS100:MN1:bid:FVG:2026-05-01T00:00:00.000Z:",
@@ -331,9 +413,9 @@
         }
        ],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:RB_TWO_CANDLE:2026-08-01T00:00:00.000Z:NAS100:MN1:bid:FVG:2026-05-01T00:00:00.000Z:&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:RB_TWO_CANDLE:2026-08-01T00:00:00.000Z:NAS100:MN1:bid:FVG:2026-05-01T00:00:00.000Z:&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 1.7555,
+       "distance_atr_d1": 1.8424,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -369,7 +451,7 @@
        "state": "CANDIDATE",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 4279.7,
+       "distance": 4373.9,
        "contexts": [
         {
          "id": "NAS100:MN1:bid:FRACTAL:2026-07-01T00:00:00.000Z:3:high:2026-06-01T00:00:00.000Z",
@@ -383,9 +465,9 @@
         }
        ],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:RB_TWO_CANDLE:2026-10-01T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-07-01T00:00:00.000Z:3:high:2026-06-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:RB_TWO_CANDLE:2026-10-01T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-07-01T00:00:00.000Z:3:high:2026-06-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 3.9514,
+       "distance_atr_d1": 4.0384,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -397,132 +479,9 @@
         },
         "last": []
        }
-      },
-      {
-       "id": "NAS100:MN1:bid:FRACTAL:2026-07-01T00:00:00.000Z:3:high:2026-06-01T00:00:00.000Z",
-       "ids": [
-        "NAS100:MN1:bid:FRACTAL:2026-07-01T00:00:00.000Z:3:high:2026-06-01T00:00:00.000Z"
-       ],
-       "kind": "FRACTAL",
-       "lower": 30758.3,
-       "upper": 30758.3,
-       "bounds_basis": "ORIGINAL",
-       "state": "CONSUMED",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 4493.5,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2026-07-01T00:00:00.000Z:3:high:2026-06-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 4.1488,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 0,
-         "RAID": 2
-        },
-        "last": [
-         {
-          "tf": "MN1",
-          "type": "RAID",
-          "at": "2026-11-01T00:00:00.000Z"
-         },
-         {
-          "tf": "W1",
-          "type": "ACCEPTANCE",
-          "at": "2026-10-18T00:00:00.000Z"
-         }
-        ]
-       }
       }
      ],
      "below": [
-      {
-       "id": "NAS100:MN1:bid:FRACTAL:2025-11-01T00:00:00.000Z:3:high:2025-10-01T00:00:00.000Z",
-       "ids": [
-        "NAS100:MN1:bid:FRACTAL:2025-11-01T00:00:00.000Z:3:high:2025-10-01T00:00:00.000Z"
-       ],
-       "kind": "FRACTAL",
-       "lower": 26255.9,
-       "upper": 26255.9,
-       "bounds_basis": "ORIGINAL",
-       "state": "CONSUMED",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 8.9,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2025-11-01T00:00:00.000Z:3:high:2025-10-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 0.0082,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 1,
-         "RAID": 0
-        },
-        "last": [
-         {
-          "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-26T06:00:00.000Z"
-         },
-         {
-          "tf": "H4",
-          "type": "RAID",
-          "at": "2026-11-26T02:00:00.000Z"
-         }
-        ]
-       }
-      },
-      {
-       "id": "NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z",
-       "ids": [
-        "NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z"
-       ],
-       "kind": "FRACTAL",
-       "lower": 26217.6,
-       "upper": 26217.6,
-       "bounds_basis": "ORIGINAL",
-       "state": "CONSUMED",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 47.2,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 0.0436,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 1,
-         "RAID": 0
-        },
-        "last": [
-         {
-          "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-26T06:00:00.000Z"
-         },
-         {
-          "tf": "H4",
-          "type": "RAID",
-          "at": "2026-11-26T02:00:00.000Z"
-         }
-        ]
-       }
-      },
       {
        "id": "NAS100:MN1:bid:SNR_CLOSED_BREAK:2026-04-01T00:00:00.000Z:2025-10-01T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z",
        "ids": [
@@ -535,7 +494,7 @@
        "state": "CANDIDATE",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 437.9,
+       "distance": 343.7,
        "contexts": [
         {
          "id": "NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z",
@@ -566,9 +525,9 @@
         }
        ],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:SNR_CLOSED_BREAK:2026-04-01T00:00:00.000Z:2025-10-01T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:SNR_CLOSED_BREAK:2026-04-01T00:00:00.000Z:2025-10-01T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.4043,
+       "distance_atr_d1": 0.3173,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -604,7 +563,7 @@
        "state": "CANDIDATE",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 744.2,
+       "distance": 650,
        "contexts": [
         {
          "id": "NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z",
@@ -635,9 +594,9 @@
         }
        ],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:SNR_CLOSED_BREAK:2026-04-01T00:00:00.000Z:2026-01-01T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:SNR_CLOSED_BREAK:2026-04-01T00:00:00.000Z:2026-01-01T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.6871,
+       "distance_atr_d1": 0.6001,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -673,7 +632,7 @@
        "state": "CANDIDATE",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 2410.2,
+       "distance": 2316,
        "contexts": [
         {
          "id": "NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z",
@@ -687,9 +646,80 @@
         }
        ],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:RB_TWO_CANDLE:2026-04-01T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:RB_TWO_CANDLE:2026-04-01T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 2.2253,
+       "distance_atr_d1": 2.1384,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 0,
+         "RAID": 0
+        },
+        "last": []
+       }
+      },
+      {
+       "id": "NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z",
+       "ids": [
+        "NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 23829.8,
+       "upper": 23829.8,
+       "bounds_basis": "ORIGINAL",
+       "state": "CONSUMED",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 2340.8,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 2.1613,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 0,
+         "RAID": 2
+        },
+        "last": [
+         {
+          "tf": "MN1",
+          "type": "RAID",
+          "at": "2026-05-01T00:00:00.000Z"
+         },
+         {
+          "tf": "W1",
+          "type": "RAID",
+          "at": "2026-04-12T00:00:00.000Z"
+         }
+        ]
+       }
+      },
+      {
+       "id": "NAS100:MN1:bid:FRACTAL:2026-04-01T00:00:00.000Z:3:low:2026-03-01T00:00:00.000Z",
+       "ids": [
+        "NAS100:MN1:bid:FRACTAL:2026-04-01T00:00:00.000Z:3:low:2026-03-01T00:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 22779.3,
+       "upper": 22779.3,
+       "bounds_basis": "ORIGINAL",
+       "state": "ACTIVE",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 3391.3,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2026-04-01T00:00:00.000Z:3:low:2026-03-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 3.1312,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -705,11 +735,11 @@
      ],
      "at_price": [],
      "eligible": {
-      "above": 4,
-      "below": 31,
+      "above": 6,
+      "below": 29,
       "at_price": 0
      },
-     "omitted": 26
+     "omitted": 25
     },
     "approach": {
      "through": "2026-11-01T00:00:00.000Z",
@@ -721,9 +751,9 @@
      "overlapping_body_pairs": 4,
      "contracting_ranges": 0,
      "nearest_level_on_path": {
-      "id": "NAS100:MN1:bid:FRACTAL:2025-11-01T00:00:00.000Z:3:high:2025-10-01T00:00:00.000Z",
-      "kind": "FRACTAL",
-      "distance": 8.9,
+      "id": "NAS100:MN1:bid:SNR_CLOSED_BREAK:2026-04-01T00:00:00.000Z:2025-10-01T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z",
+      "kind": "SNR_CLOSED_BREAK",
+      "distance": 343.7,
       "at_price": false
      },
      "flag": "NOT_EVALUATED",
@@ -832,7 +862,7 @@
       "confirmed_at": "2025-12-01T00:00:00.000Z",
       "relation": "HH",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2025-11-01T00:00:00.000Z:3:high:2025-10-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2025-11-01T00:00:00.000Z:3:high:2025-10-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z",
@@ -841,7 +871,7 @@
       "confirmed_at": "2026-01-01T00:00:00.000Z",
       "relation": "HL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2025-12-01T00:00:00.000Z:3:low:2025-11-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z",
@@ -850,7 +880,7 @@
       "confirmed_at": "2026-03-01T00:00:00.000Z",
       "relation": "LH",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:MN1:bid:FRACTAL:2026-04-01T00:00:00.000Z:3:low:2026-03-01T00:00:00.000Z",
@@ -859,7 +889,7 @@
       "confirmed_at": "2026-05-01T00:00:00.000Z",
       "relation": "LL",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2026-04-01T00:00:00.000Z:3:low:2026-03-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2026-04-01T00:00:00.000Z:3:low:2026-03-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:MN1:bid:FRACTAL:2026-07-01T00:00:00.000Z:3:high:2026-06-01T00:00:00.000Z",
@@ -868,7 +898,7 @@
       "confirmed_at": "2026-08-01T00:00:00.000Z",
       "relation": "HH",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2026-07-01T00:00:00.000Z:3:high:2026-06-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2026-07-01T00:00:00.000Z:3:high:2026-06-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:MN1:bid:FRACTAL:2026-08-01T00:00:00.000Z:3:low:2026-07-01T00:00:00.000Z",
@@ -877,7 +907,7 @@
       "confirmed_at": "2026-09-01T00:00:00.000Z",
       "relation": "HL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2026-08-01T00:00:00.000Z:3:low:2026-07-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:MN1:bid:FRACTAL:2026-08-01T00:00:00.000Z:3:low:2026-07-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      }
     ],
     "findings_by_kind": {
@@ -889,9 +919,9 @@
      "FRACTAL_INSIDE_POI": 2
     },
     "links": {
-     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&timeframe=MN1&limit=50&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8",
-     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=NAS100&side=bid&grid=ny&timeframe=MN1&limit=200&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8",
-     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&view=structure&timeframe=MN1&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&timeframe=MN1&limit=50&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807",
+     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=NAS100&side=bid&grid=ny&timeframe=MN1&limit=200&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807",
+     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&view=structure&timeframe=MN1&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
     }
    },
    "W1": {
@@ -1021,12 +1051,12 @@
       "high": 30015.8,
       "low": 26255.2,
       "eq": 28135.5,
-      "price": 26264.8,
+      "price": 26170.6,
       "price_basis": "LAST_CLOSED_H4_CLOSE",
-      "price_position_pct": 0.26,
-      "zone": "DISCOUNT",
-      "distance_to_high": 3751,
-      "distance_to_low": 9.6,
+      "price_position_pct": -2.25,
+      "zone": "BELOW_RANGE",
+      "distance_to_high": 3845.2,
+      "distance_to_low": -84.6,
       "dr_status": "AWAITING_NEW_EXTREME",
       "confirmed": false,
       "selection": "AUTOMATIC_CANDIDATE",
@@ -1035,6 +1065,129 @@
     },
     "levels": {
      "above": [
+      {
+       "id": "NAS100:W1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-25T00:00:00.000Z",
+       "ids": [
+        "NAS100:W1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-25T00:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 26217.6,
+       "upper": 26217.6,
+       "bounds_basis": "ORIGINAL",
+       "state": "CONSUMED",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 47,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-25T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 0.0434,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 2,
+         "RAID": 0
+        },
+        "last": [
+         {
+          "tf": "H4",
+          "type": "ACCEPTANCE",
+          "at": "2026-11-26T18:00:00.000Z"
+         },
+         {
+          "tf": "H4",
+          "type": "ACCEPTANCE",
+          "at": "2026-11-26T14:00:00.000Z"
+         }
+        ]
+       }
+      },
+      {
+       "id": "NAS100:W1:bid:FRACTAL:2026-11-08T00:00:00.000Z:3:low:2026-11-01T00:00:00.000Z",
+       "ids": [
+        "NAS100:W1:bid:FRACTAL:2026-11-08T00:00:00.000Z:3:low:2026-11-01T00:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 26255.2,
+       "upper": 26255.2,
+       "bounds_basis": "ORIGINAL",
+       "state": "CONSUMED",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 84.6,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-11-08T00:00:00.000Z:3:low:2026-11-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 0.0781,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 1,
+         "RAID": 0
+        },
+        "last": [
+         {
+          "tf": "H4",
+          "type": "RAID",
+          "at": "2026-11-26T18:00:00.000Z"
+         },
+         {
+          "tf": "H4",
+          "type": "RAID",
+          "at": "2026-11-26T14:00:00.000Z"
+         }
+        ]
+       }
+      },
+      {
+       "id": "NAS100:W1:bid:FRACTAL:2025-11-02T00:00:00.000Z:3:high:2025-10-26T00:00:00.000Z",
+       "ids": [
+        "NAS100:W1:bid:FRACTAL:2025-11-02T00:00:00.000Z:3:high:2025-10-26T00:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 26255.9,
+       "upper": 26255.9,
+       "bounds_basis": "ORIGINAL",
+       "state": "CONSUMED",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 85.3,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2025-11-02T00:00:00.000Z:3:high:2025-10-26T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 0.0788,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 2,
+         "RAID": 1
+        },
+        "last": [
+         {
+          "tf": "H4",
+          "type": "RAID",
+          "at": "2026-11-26T18:00:00.000Z"
+         },
+         {
+          "tf": "H4",
+          "type": "RAID",
+          "at": "2026-11-26T14:00:00.000Z"
+         }
+        ]
+       }
+      },
       {
        "id": "NAS100:W1:bid:FRACTAL:2026-08-02T00:00:00.000Z:3:low:2026-07-26T00:00:00.000Z",
        "ids": [
@@ -1047,12 +1200,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 715.8,
+       "distance": 810,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-08-02T00:00:00.000Z:3:low:2026-07-26T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-08-02T00:00:00.000Z:3:low:2026-07-26T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.6609,
+       "distance_atr_d1": 0.7479,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1088,7 +1241,7 @@
        "state": "CANDIDATE",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 740.5,
+       "distance": 834.7,
        "contexts": [
         {
          "id": "NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z",
@@ -1110,9 +1263,9 @@
         }
        ],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:SNR_CLOSED_BREAK:2026-11-15T00:00:00.000Z:2026-11-01T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:SNR_CLOSED_BREAK:2026-11-15T00:00:00.000Z:2026-11-01T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.6837,
+       "distance_atr_d1": 0.7707,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1135,274 +1288,9 @@
          }
         ]
        }
-      },
-      {
-       "id": "NAS100:W1:bid:SNR_CLOSED_BREAK:2026-11-01T00:00:00.000Z:2026-07-26T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z",
-       "ids": [
-        "NAS100:W1:bid:SNR_CLOSED_BREAK:2026-11-01T00:00:00.000Z:2026-07-26T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z"
-       ],
-       "kind": "SNR_CLOSED_BREAK",
-       "lower": 28166.1,
-       "upper": 28166.1,
-       "bounds_basis": "ORIGINAL",
-       "state": "CANDIDATE",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 1901.3,
-       "contexts": [
-        {
-         "id": "NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z",
-         "relationships": [
-          "kl_id"
-         ],
-         "evidence_ids": [
-          "NAS100:W1:bid:SNR_CLOSED_BREAK:2026-11-01T00:00:00.000Z:2026-07-26T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z"
-         ]
-        },
-        {
-         "id": "NAS100:MN1:bid:FRACTAL:2026-08-01T00:00:00.000Z:3:low:2026-07-01T00:00:00.000Z",
-         "relationships": [
-          "snr_opposing_kl_id"
-         ],
-         "evidence_ids": [
-          "NAS100:W1:bid:SNR_CLOSED_BREAK:2026-11-01T00:00:00.000Z:2026-07-26T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z"
-         ]
-        }
-       ],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:SNR_CLOSED_BREAK:2026-11-01T00:00:00.000Z:2026-07-26T00:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 1.7555,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 0,
-         "RAID": 2
-        },
-        "last": [
-         {
-          "tf": "W1",
-          "type": "RAID",
-          "at": "2026-11-22T00:00:00.000Z"
-         },
-         {
-          "tf": "D1",
-          "type": "RAID",
-          "at": "2026-11-16T22:00:00.000Z"
-         }
-        ]
-       }
-      },
-      {
-       "id": "NAS100:W1:bid:FRACTAL:2026-06-14T00:00:00.000Z:3:low:2026-06-07T00:00:00.000Z",
-       "ids": [
-        "NAS100:W1:bid:FRACTAL:2026-06-14T00:00:00.000Z:3:low:2026-06-07T00:00:00.000Z"
-       ],
-       "kind": "FRACTAL",
-       "lower": 28184.7,
-       "upper": 28184.7,
-       "bounds_basis": "ORIGINAL",
-       "state": "CONSUMED",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 1919.9,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-06-14T00:00:00.000Z:3:low:2026-06-07T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 1.7726,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 3,
-         "RAID": 4
-        },
-        "last": [
-         {
-          "tf": "W1",
-          "type": "RAID",
-          "at": "2026-11-22T00:00:00.000Z"
-         },
-         {
-          "tf": "D1",
-          "type": "RAID",
-          "at": "2026-11-16T22:00:00.000Z"
-         }
-        ]
-       }
-      },
-      {
-       "id": "NAS100:W1:bid:FRACTAL:2026-05-24T00:00:00.000Z:3:low:2026-05-17T00:00:00.000Z",
-       "ids": [
-        "NAS100:W1:bid:FRACTAL:2026-05-24T00:00:00.000Z:3:low:2026-05-17T00:00:00.000Z"
-       ],
-       "kind": "FRACTAL",
-       "lower": 28566,
-       "upper": 28566,
-       "bounds_basis": "ORIGINAL",
-       "state": "CONSUMED",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 2301.2,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-05-24T00:00:00.000Z:3:low:2026-05-17T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 2.1247,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 3,
-         "RAID": 5
-        },
-        "last": [
-         {
-          "tf": "W1",
-          "type": "RAID",
-          "at": "2026-11-15T00:00:00.000Z"
-         },
-         {
-          "tf": "D1",
-          "type": "RAID",
-          "at": "2026-11-11T22:00:00.000Z"
-         }
-        ]
-       }
       }
      ],
      "below": [
-      {
-       "id": "NAS100:W1:bid:FRACTAL:2025-11-02T00:00:00.000Z:3:high:2025-10-26T00:00:00.000Z",
-       "ids": [
-        "NAS100:W1:bid:FRACTAL:2025-11-02T00:00:00.000Z:3:high:2025-10-26T00:00:00.000Z"
-       ],
-       "kind": "FRACTAL",
-       "lower": 26255.9,
-       "upper": 26255.9,
-       "bounds_basis": "ORIGINAL",
-       "state": "CONSUMED",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 8.9,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2025-11-02T00:00:00.000Z:3:high:2025-10-26T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 0.0082,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 2,
-         "RAID": 1
-        },
-        "last": [
-         {
-          "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-26T06:00:00.000Z"
-         },
-         {
-          "tf": "H4",
-          "type": "RAID",
-          "at": "2026-11-26T02:00:00.000Z"
-         }
-        ]
-       }
-      },
-      {
-       "id": "NAS100:W1:bid:FRACTAL:2026-11-08T00:00:00.000Z:3:low:2026-11-01T00:00:00.000Z",
-       "ids": [
-        "NAS100:W1:bid:FRACTAL:2026-11-08T00:00:00.000Z:3:low:2026-11-01T00:00:00.000Z"
-       ],
-       "kind": "FRACTAL",
-       "lower": 26255.2,
-       "upper": 26255.2,
-       "bounds_basis": "ORIGINAL",
-       "state": "CONSUMED",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 9.6,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-11-08T00:00:00.000Z:3:low:2026-11-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 0.0089,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 1,
-         "RAID": 0
-        },
-        "last": [
-         {
-          "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-26T06:00:00.000Z"
-         },
-         {
-          "tf": "H4",
-          "type": "RAID",
-          "at": "2026-11-26T02:00:00.000Z"
-         }
-        ]
-       }
-      },
-      {
-       "id": "NAS100:W1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-25T00:00:00.000Z",
-       "ids": [
-        "NAS100:W1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-25T00:00:00.000Z"
-       ],
-       "kind": "FRACTAL",
-       "lower": 26217.6,
-       "upper": 26217.6,
-       "bounds_basis": "ORIGINAL",
-       "state": "CONSUMED",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 47.2,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-25T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 0.0436,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 2,
-         "RAID": 0
-        },
-        "last": [
-         {
-          "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-26T06:00:00.000Z"
-         },
-         {
-          "tf": "H4",
-          "type": "RAID",
-          "at": "2026-11-26T02:00:00.000Z"
-         }
-        ]
-       }
-      },
       {
        "id": "NAS100:W1:bid:FRACTAL:2026-01-18T00:00:00.000Z:3:high:2026-01-11T00:00:00.000Z",
        "ids": [
@@ -1415,12 +1303,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 385.6,
+       "distance": 291.4,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-01-18T00:00:00.000Z:3:high:2026-01-11T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-01-18T00:00:00.000Z:3:high:2026-01-11T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.356,
+       "distance_atr_d1": 0.269,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1456,12 +1344,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 430.9,
+       "distance": 336.7,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2025-12-14T00:00:00.000Z:3:high:2025-12-07T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2025-12-14T00:00:00.000Z:3:high:2025-12-07T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.3979,
+       "distance_atr_d1": 0.3109,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1484,12 +1372,135 @@
          }
         ]
        }
+      },
+      {
+       "id": "NAS100:W1:bid:FRACTAL:2025-12-28T00:00:00.000Z:3:high:2025-12-21T00:00:00.000Z",
+       "ids": [
+        "NAS100:W1:bid:FRACTAL:2025-12-28T00:00:00.000Z:3:high:2025-12-21T00:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 25712.7,
+       "upper": 25712.7,
+       "bounds_basis": "ORIGINAL",
+       "state": "CONSUMED",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 457.9,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2025-12-28T00:00:00.000Z:3:high:2025-12-21T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 0.4228,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 4,
+         "RAID": 2
+        },
+        "last": [
+         {
+          "tf": "D1",
+          "type": "RAID",
+          "at": "2026-11-25T22:00:00.000Z"
+         },
+         {
+          "tf": "H4",
+          "type": "ACCEPTANCE",
+          "at": "2026-11-25T22:00:00.000Z"
+         }
+        ]
+       }
+      },
+      {
+       "id": "NAS100:W1:bid:FRACTAL:2026-03-01T00:00:00.000Z:3:high:2026-02-22T00:00:00.000Z",
+       "ids": [
+        "NAS100:W1:bid:FRACTAL:2026-03-01T00:00:00.000Z:3:high:2026-02-22T00:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 25442.3,
+       "upper": 25442.3,
+       "bounds_basis": "ORIGINAL",
+       "state": "CONSUMED",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 728.3,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-03-01T00:00:00.000Z:3:high:2026-02-22T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 0.6724,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 2,
+         "RAID": 0
+        },
+        "last": [
+         {
+          "tf": "D1",
+          "type": "RAID",
+          "at": "2026-11-25T22:00:00.000Z"
+         },
+         {
+          "tf": "H4",
+          "type": "ACCEPTANCE",
+          "at": "2026-11-25T18:00:00.000Z"
+         }
+        ]
+       }
+      },
+      {
+       "id": "NAS100:W1:bid:FRACTAL:2025-10-12T00:00:00.000Z:3:high:2025-10-05T00:00:00.000Z",
+       "ids": [
+        "NAS100:W1:bid:FRACTAL:2025-10-12T00:00:00.000Z:3:high:2025-10-05T00:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 25200,
+       "upper": 25200,
+       "bounds_basis": "ORIGINAL",
+       "state": "CONSUMED",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 970.6,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2025-10-12T00:00:00.000Z:3:high:2025-10-05T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 0.8962,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 7,
+         "RAID": 10
+        },
+        "last": [
+         {
+          "tf": "D1",
+          "type": "RAID",
+          "at": "2026-11-25T22:00:00.000Z"
+         },
+         {
+          "tf": "H4",
+          "type": "RAID",
+          "at": "2026-11-25T18:00:00.000Z"
+         }
+        ]
+       }
       }
      ],
      "at_price": [],
      "eligible": {
-      "above": 19,
-      "below": 52,
+      "above": 22,
+      "below": 49,
       "at_price": 0
      },
      "omitted": 61
@@ -1504,9 +1515,9 @@
      "overlapping_body_pairs": 4,
      "contracting_ranges": 0,
      "nearest_level_on_path": {
-      "id": "NAS100:W1:bid:FRACTAL:2025-11-02T00:00:00.000Z:3:high:2025-10-26T00:00:00.000Z",
+      "id": "NAS100:W1:bid:FRACTAL:2026-01-18T00:00:00.000Z:3:high:2026-01-11T00:00:00.000Z",
       "kind": "FRACTAL",
-      "distance": 8.9,
+      "distance": 291.4,
       "at_price": false
      },
      "flag": "NOT_EVALUATED",
@@ -1626,7 +1637,7 @@
       "confirmed_at": "2026-09-06T00:00:00.000Z",
       "relation": "HL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-08-30T00:00:00.000Z:3:low:2026-08-23T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-08-30T00:00:00.000Z:3:low:2026-08-23T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:W1:bid:FRACTAL:2026-09-13T00:00:00.000Z:3:high:2026-09-06T00:00:00.000Z",
@@ -1635,7 +1646,7 @@
       "confirmed_at": "2026-09-20T00:00:00.000Z",
       "relation": "LH",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-09-13T00:00:00.000Z:3:high:2026-09-06T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-09-13T00:00:00.000Z:3:high:2026-09-06T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:W1:bid:FRACTAL:2026-09-20T00:00:00.000Z:3:low:2026-09-13T00:00:00.000Z",
@@ -1644,7 +1655,7 @@
       "confirmed_at": "2026-09-27T00:00:00.000Z",
       "relation": "LL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-09-20T00:00:00.000Z:3:low:2026-09-13T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-09-20T00:00:00.000Z:3:low:2026-09-13T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:W1:bid:FRACTAL:2026-10-11T00:00:00.000Z:3:high:2026-10-04T00:00:00.000Z",
@@ -1653,7 +1664,7 @@
       "confirmed_at": "2026-10-18T00:00:00.000Z",
       "relation": "HH",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-10-11T00:00:00.000Z:3:high:2026-10-04T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-10-11T00:00:00.000Z:3:high:2026-10-04T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:W1:bid:FRACTAL:2026-11-01T00:00:00.000Z:3:high:2026-10-25T00:00:00.000Z",
@@ -1662,7 +1673,7 @@
       "confirmed_at": "2026-11-08T00:00:00.000Z",
       "relation": "LH",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-11-01T00:00:00.000Z:3:high:2026-10-25T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-11-01T00:00:00.000Z:3:high:2026-10-25T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:W1:bid:FRACTAL:2026-11-08T00:00:00.000Z:3:low:2026-11-01T00:00:00.000Z",
@@ -1671,7 +1682,7 @@
       "confirmed_at": "2026-11-15T00:00:00.000Z",
       "relation": "LL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-11-08T00:00:00.000Z:3:low:2026-11-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:W1:bid:FRACTAL:2026-11-08T00:00:00.000Z:3:low:2026-11-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      }
     ],
     "findings_by_kind": {
@@ -1683,9 +1694,9 @@
      "FRACTAL_INSIDE_POI": 10
     },
     "links": {
-     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&timeframe=W1&limit=50&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8",
-     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=NAS100&side=bid&grid=ny&timeframe=W1&limit=200&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8",
-     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&view=structure&timeframe=W1&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&timeframe=W1&limit=50&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807",
+     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=NAS100&side=bid&grid=ny&timeframe=W1&limit=200&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807",
+     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&view=structure&timeframe=W1&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
     }
    },
    "D1": {
@@ -1818,12 +1829,12 @@
       "high": 27750.4,
       "low": 24907,
       "eq": 26328.7,
-      "price": 26264.8,
+      "price": 26170.6,
       "price_basis": "LAST_CLOSED_H4_CLOSE",
-      "price_position_pct": 47.75,
+      "price_position_pct": 44.44,
       "zone": "DISCOUNT",
-      "distance_to_high": 1485.6,
-      "distance_to_low": 1357.8,
+      "distance_to_high": 1579.8,
+      "distance_to_low": 1263.6,
       "dr_status": "ESTABLISHED",
       "confirmed": true,
       "selection": "AUTOMATIC_CANDIDATE",
@@ -1832,6 +1843,47 @@
     },
     "levels": {
      "above": [
+      {
+       "id": "NAS100:D1:bid:FRACTAL:2026-11-08T22:00:00.000Z:3:low:2026-11-05T22:00:00.000Z",
+       "ids": [
+        "NAS100:D1:bid:FRACTAL:2026-11-08T22:00:00.000Z:3:low:2026-11-05T22:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 26255.2,
+       "upper": 26255.2,
+       "bounds_basis": "ORIGINAL",
+       "state": "CONSUMED",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 84.6,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-08T22:00:00.000Z:3:low:2026-11-05T22:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 0.0781,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 3,
+         "RAID": 1
+        },
+        "last": [
+         {
+          "tf": "H4",
+          "type": "RAID",
+          "at": "2026-11-26T18:00:00.000Z"
+         },
+         {
+          "tf": "H4",
+          "type": "RAID",
+          "at": "2026-11-26T14:00:00.000Z"
+         }
+        ]
+       }
+      },
       {
        "id": "NAS100:D1:bid:FRACTAL:2026-04-23T21:00:00.000Z:3:low:2026-04-22T21:00:00.000Z",
        "ids": [
@@ -1844,12 +1896,12 @@
        "state": "UNVERIFIED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 270,
+       "distance": 364.2,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-04-23T21:00:00.000Z:3:low:2026-04-22T21:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-04-23T21:00:00.000Z:3:low:2026-04-22T21:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.2493,
+       "distance_atr_d1": 0.3363,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1885,12 +1937,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 311.8,
+       "distance": 406,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-17T22:00:00.000Z:3:low:2026-11-16T22:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-17T22:00:00.000Z:3:low:2026-11-16T22:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.2879,
+       "distance_atr_d1": 0.3749,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1926,12 +1978,12 @@
        "state": "UNVERIFIED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 455.5,
+       "distance": 549.7,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-04-19T21:00:00.000Z:3:high:2026-04-16T21:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-04-19T21:00:00.000Z:3:high:2026-04-16T21:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.4206,
+       "distance_atr_d1": 0.5075,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1967,12 +2019,12 @@
        "state": "UNVERIFIED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 611,
+       "distance": 705.2,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-04-28T21:00:00.000Z:3:low:2026-04-27T21:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-04-28T21:00:00.000Z:3:low:2026-04-27T21:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.5641,
+       "distance_atr_d1": 0.6511,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -1995,119 +2047,9 @@
          }
         ]
        }
-      },
-      {
-       "id": "NAS100:D1:bid:SNR_CLOSED_BREAK:2026-11-18T22:00:00.000Z:2026-11-16T22:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z",
-       "ids": [
-        "NAS100:D1:bid:SNR_CLOSED_BREAK:2026-11-18T22:00:00.000Z:2026-11-16T22:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z"
-       ],
-       "kind": "SNR_CLOSED_BREAK",
-       "lower": 27039.8,
-       "upper": 27039.8,
-       "bounds_basis": "ORIGINAL",
-       "state": "CANDIDATE",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 775,
-       "contexts": [
-        {
-         "id": "NAS100:H4:bid:FVG:2026-11-19T18:00:00.000Z:",
-         "relationships": [
-          "snr_x1_fvg_id"
-         ],
-         "evidence_ids": [
-          "NAS100:D1:bid:SNR_CLOSED_BREAK:2026-11-18T22:00:00.000Z:2026-11-16T22:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z"
-         ]
-        },
-        {
-         "id": "NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z",
-         "relationships": [
-          "kl_id"
-         ],
-         "evidence_ids": [
-          "NAS100:D1:bid:SNR_CLOSED_BREAK:2026-11-18T22:00:00.000Z:2026-11-16T22:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z"
-         ]
-        },
-        {
-         "id": "NAS100:MN1:bid:FRACTAL:2026-08-01T00:00:00.000Z:3:low:2026-07-01T00:00:00.000Z",
-         "relationships": [
-          "snr_opposing_kl_id"
-         ],
-         "evidence_ids": [
-          "NAS100:D1:bid:SNR_CLOSED_BREAK:2026-11-18T22:00:00.000Z:2026-11-16T22:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z"
-         ]
-        }
-       ],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:SNR_CLOSED_BREAK:2026-11-18T22:00:00.000Z:2026-11-16T22:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 0.7156,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 0,
-         "RAID": 1
-        },
-        "last": [
-         {
-          "tf": "D1",
-          "type": "RAID",
-          "at": "2026-11-23T22:00:00.000Z"
-         },
-         {
-          "tf": "H4",
-          "type": "RAID",
-          "at": "2026-11-23T18:00:00.000Z"
-         }
-        ]
-       }
       }
      ],
      "below": [
-      {
-       "id": "NAS100:D1:bid:FRACTAL:2026-11-08T22:00:00.000Z:3:low:2026-11-05T22:00:00.000Z",
-       "ids": [
-        "NAS100:D1:bid:FRACTAL:2026-11-08T22:00:00.000Z:3:low:2026-11-05T22:00:00.000Z"
-       ],
-       "kind": "FRACTAL",
-       "lower": 26255.2,
-       "upper": 26255.2,
-       "bounds_basis": "ORIGINAL",
-       "state": "CONSUMED",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 9.6,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-08T22:00:00.000Z:3:low:2026-11-05T22:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 0.0089,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 3,
-         "RAID": 1
-        },
-        "last": [
-         {
-          "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-26T06:00:00.000Z"
-         },
-         {
-          "tf": "H4",
-          "type": "RAID",
-          "at": "2026-11-26T02:00:00.000Z"
-         }
-        ]
-       }
-      },
       {
        "id": "NAS100:D1:bid:FRACTAL:2026-02-25T22:00:00.000Z:3:high:2026-02-24T22:00:00.000Z",
        "ids": [
@@ -2120,12 +2062,12 @@
        "state": "UNVERIFIED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 822.5,
+       "distance": 728.3,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-02-25T22:00:00.000Z:3:high:2026-02-24T22:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-02-25T22:00:00.000Z:3:high:2026-02-24T22:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.7594,
+       "distance_atr_d1": 0.6724,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -2161,12 +2103,12 @@
        "state": "UNVERIFIED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 1058.6,
+       "distance": 964.4,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-03-05T22:00:00.000Z:3:high:2026-03-04T22:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-03-05T22:00:00.000Z:3:high:2026-03-04T22:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.9774,
+       "distance_atr_d1": 0.8904,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -2202,12 +2144,12 @@
        "state": "UNVERIFIED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 1075.9,
+       "distance": 981.7,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-03-10T21:00:00.000Z:3:high:2026-03-09T21:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-03-10T21:00:00.000Z:3:high:2026-03-09T21:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.9934,
+       "distance_atr_d1": 0.9064,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -2243,7 +2185,7 @@
        "state": "UNVERIFIED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 1165,
+       "distance": 1070.8,
        "contexts": [
         {
          "id": "NAS100:W1:bid:FRACTAL:2025-10-12T00:00:00.000Z:3:high:2025-10-05T00:00:00.000Z",
@@ -2265,9 +2207,9 @@
         }
        ],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:SNR_CLOSED_BREAK:2026-04-09T21:00:00.000Z:2026-03-03T22:00:00.000Z:NAS100:W1:bid:FRACTAL:2026-01-25T00:00:00.000Z:3:low:2026-01-18T00:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:SNR_CLOSED_BREAK:2026-04-09T21:00:00.000Z:2026-03-03T22:00:00.000Z:NAS100:W1:bid:FRACTAL:2026-01-25T00:00:00.000Z:3:low:2026-01-18T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 1.0756,
+       "distance_atr_d1": 0.9887,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -2290,12 +2232,53 @@
          }
         ]
        }
+      },
+      {
+       "id": "NAS100:D1:bid:FRACTAL:2026-03-02T22:00:00.000Z:3:high:2026-03-01T22:00:00.000Z",
+       "ids": [
+        "NAS100:D1:bid:FRACTAL:2026-03-02T22:00:00.000Z:3:high:2026-03-01T22:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 25059,
+       "upper": 25059,
+       "bounds_basis": "ORIGINAL",
+       "state": "UNVERIFIED",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 1111.6,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-03-02T22:00:00.000Z:3:high:2026-03-01T22:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 1.0263,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 3,
+         "RAID": 8
+        },
+        "last": [
+         {
+          "tf": "D1",
+          "type": "RAID",
+          "at": "2026-11-25T22:00:00.000Z"
+         },
+         {
+          "tf": "H4",
+          "type": "RAID",
+          "at": "2026-11-25T18:00:00.000Z"
+         }
+        ]
+       }
       }
      ],
      "at_price": [],
      "eligible": {
-      "above": 71,
-      "below": 26,
+      "above": 72,
+      "below": 25,
       "at_price": 0
      },
      "omitted": 87
@@ -2310,9 +2293,9 @@
      "overlapping_body_pairs": 5,
      "contracting_ranges": 0,
      "nearest_level_on_path": {
-      "id": "NAS100:D1:bid:FRACTAL:2026-11-08T22:00:00.000Z:3:low:2026-11-05T22:00:00.000Z",
+      "id": "NAS100:D1:bid:FRACTAL:2026-02-25T22:00:00.000Z:3:high:2026-02-24T22:00:00.000Z",
       "kind": "FRACTAL",
-      "distance": 9.6,
+      "distance": 728.3,
       "at_price": false
      },
      "flag": "NOT_EVALUATED",
@@ -2420,7 +2403,7 @@
       "confirmed_at": "2026-11-10T22:00:00.000Z",
       "relation": "LH",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-09T22:00:00.000Z:3:high:2026-11-08T22:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-09T22:00:00.000Z:3:high:2026-11-08T22:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:D1:bid:FRACTAL:2026-11-11T22:00:00.000Z:3:high:2026-11-10T22:00:00.000Z",
@@ -2429,7 +2412,7 @@
       "confirmed_at": "2026-11-12T22:00:00.000Z",
       "relation": "HH",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-11T22:00:00.000Z:3:high:2026-11-10T22:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-11T22:00:00.000Z:3:high:2026-11-10T22:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:D1:bid:FRACTAL:2026-11-17T22:00:00.000Z:3:low:2026-11-16T22:00:00.000Z",
@@ -2438,7 +2421,7 @@
       "confirmed_at": "2026-11-18T22:00:00.000Z",
       "relation": "HL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-17T22:00:00.000Z:3:low:2026-11-16T22:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-17T22:00:00.000Z:3:low:2026-11-16T22:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:D1:bid:FRACTAL:2026-11-19T22:00:00.000Z:3:high:2026-11-18T22:00:00.000Z",
@@ -2447,7 +2430,7 @@
       "confirmed_at": "2026-11-20T22:00:00.000Z",
       "relation": "LH",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-19T22:00:00.000Z:3:high:2026-11-18T22:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-19T22:00:00.000Z:3:high:2026-11-18T22:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:D1:bid:FRACTAL:2026-11-22T22:00:00.000Z:3:low:2026-11-19T22:00:00.000Z",
@@ -2456,7 +2439,7 @@
       "confirmed_at": "2026-11-23T22:00:00.000Z",
       "relation": "LL",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-22T22:00:00.000Z:3:low:2026-11-19T22:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-22T22:00:00.000Z:3:low:2026-11-19T22:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:high:2026-11-22T22:00:00.000Z",
@@ -2465,7 +2448,7 @@
       "confirmed_at": "2026-11-24T22:00:00.000Z",
       "relation": "LH",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:high:2026-11-22T22:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:D1:bid:FRACTAL:2026-11-23T22:00:00.000Z:3:high:2026-11-22T22:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      }
     ],
     "findings_by_kind": {
@@ -2477,9 +2460,9 @@
      "FRACTAL_INSIDE_POI": 17
     },
     "links": {
-     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&timeframe=D1&limit=50&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8",
-     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=NAS100&side=bid&grid=ny&timeframe=D1&limit=200&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8",
-     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&view=structure&timeframe=D1&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&timeframe=D1&limit=50&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807",
+     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=NAS100&side=bid&grid=ny&timeframe=D1&limit=200&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807",
+     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&view=structure&timeframe=D1&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
     }
    },
    "H4": {
@@ -2490,33 +2473,9 @@
      "SESSION_COVERAGE_NOT_INDEPENDENTLY_VERIFIED",
      "GAP_BOUNDARY_NO_PATTERN_STITCHING"
     ],
-    "last_closed_at": "2026-11-26T06:00:00.000Z",
+    "last_closed_at": "2026-11-26T18:00:00.000Z",
     "closed_candles": 239,
     "last_closed_candles": [
-     {
-      "time": "2026-11-24T06:00:00.000Z",
-      "closed_at": "2026-11-24T10:00:00.000Z",
-      "open": 26801.9,
-      "high": 26872.8,
-      "low": 26420.6,
-      "close": 26423.5
-     },
-     {
-      "time": "2026-11-24T10:00:00.000Z",
-      "closed_at": "2026-11-24T14:00:00.000Z",
-      "open": 26423.3,
-      "high": 26495.3,
-      "low": 26072.9,
-      "close": 26139
-     },
-     {
-      "time": "2026-11-24T14:00:00.000Z",
-      "closed_at": "2026-11-24T18:00:00.000Z",
-      "open": 26135.5,
-      "high": 26439.7,
-      "low": 25932.7,
-      "close": 26287.7
-     },
      {
       "time": "2026-11-24T18:00:00.000Z",
       "closed_at": "2026-11-24T22:00:00.000Z",
@@ -2588,6 +2547,30 @@
       "high": 26381.6,
       "low": 26175.5,
       "close": 26264.8
+     },
+     {
+      "time": "2026-11-26T06:00:00.000Z",
+      "closed_at": "2026-11-26T10:00:00.000Z",
+      "open": 26264.6,
+      "high": 26268.7,
+      "low": 26101.5,
+      "close": 26203.2
+     },
+     {
+      "time": "2026-11-26T10:00:00.000Z",
+      "closed_at": "2026-11-26T14:00:00.000Z",
+      "open": 26203,
+      "high": 26288.8,
+      "low": 26077.3,
+      "close": 26241
+     },
+     {
+      "time": "2026-11-26T14:00:00.000Z",
+      "closed_at": "2026-11-26T18:00:00.000Z",
+      "open": 26240.7,
+      "high": 26267.3,
+      "low": 26160.6,
+      "close": 26170.6
      }
     ],
     "dealing_range": {
@@ -2602,20 +2585,20 @@
      },
      "current_h4_position": "PREMIUM",
      "reference": {
-      "price": 26264.8,
-      "at": "2026-11-26T06:00:00.000Z",
+      "price": 26170.6,
+      "at": "2026-11-26T18:00:00.000Z",
       "basis": "LAST_CLOSED_OWN_TF"
      },
      "premium_discount": {
       "high": 26872.8,
       "low": 24972.2,
       "eq": 25922.5,
-      "price": 26264.8,
+      "price": 26170.6,
       "price_basis": "LAST_CLOSED_H4_CLOSE",
-      "price_position_pct": 68.01,
+      "price_position_pct": 63.05,
       "zone": "PREMIUM",
-      "distance_to_high": 608,
-      "distance_to_low": 1292.6,
+      "distance_to_high": 702.2,
+      "distance_to_low": 1198.4,
       "dr_status": "ESTABLISHED",
       "confirmed": true,
       "selection": "AUTOMATIC_CANDIDATE",
@@ -2624,6 +2607,147 @@
     },
     "levels": {
      "above": [
+      {
+       "id": "NAS100:H4:bid:SNR_CLOSED_BREAK:2026-11-26T14:00:00.000Z:2026-11-26T06:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z",
+       "ids": [
+        "NAS100:H4:bid:SNR_CLOSED_BREAK:2026-11-26T14:00:00.000Z:2026-11-26T06:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z"
+       ],
+       "kind": "SNR_CLOSED_BREAK",
+       "lower": 26203.2,
+       "upper": 26203.2,
+       "bounds_basis": "ORIGINAL",
+       "state": "CANDIDATE",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 32.6,
+       "contexts": [
+        {
+         "id": "NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z",
+         "relationships": [
+          "kl_id"
+         ],
+         "evidence_ids": [
+          "NAS100:H4:bid:SNR_CLOSED_BREAK:2026-11-26T14:00:00.000Z:2026-11-26T06:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z"
+         ]
+        }
+       ],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:SNR_CLOSED_BREAK:2026-11-26T14:00:00.000Z:2026-11-26T06:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 0.0301,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 0,
+         "RAID": 0
+        },
+        "last": []
+       }
+      },
+      {
+       "id": "NAS100:H4:bid:FRACTAL:2026-11-06T02:00:00.000Z:3:low:2026-11-05T22:00:00.000Z",
+       "ids": [
+        "NAS100:H4:bid:FRACTAL:2026-11-06T02:00:00.000Z:3:low:2026-11-05T22:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 26255.2,
+       "upper": 26255.2,
+       "bounds_basis": "ORIGINAL",
+       "state": "CONSUMED",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 84.6,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-06T02:00:00.000Z:3:low:2026-11-05T22:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 0.0781,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 7,
+         "RAID": 7
+        },
+        "last": [
+         {
+          "tf": "H4",
+          "type": "RAID",
+          "at": "2026-11-26T18:00:00.000Z"
+         },
+         {
+          "tf": "H4",
+          "type": "RAID",
+          "at": "2026-11-26T14:00:00.000Z"
+         }
+        ]
+       }
+      },
+      {
+       "id": "NAS100:H4:bid:FRACTAL:2026-11-26T14:00:00.000Z:3:high:2026-11-26T10:00:00.000Z",
+       "ids": [
+        "NAS100:H4:bid:FRACTAL:2026-11-26T14:00:00.000Z:3:high:2026-11-26T10:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 26288.8,
+       "upper": 26288.8,
+       "bounds_basis": "ORIGINAL",
+       "state": "ACTIVE",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 118.2,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-26T14:00:00.000Z:3:high:2026-11-26T10:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 0.1091,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 0,
+         "RAID": 0
+        },
+        "last": []
+       }
+      },
+      {
+       "id": "NAS100:H4:bid:FRACTAL:2026-11-26T06:00:00.000Z:3:high:2026-11-26T02:00:00.000Z",
+       "ids": [
+        "NAS100:H4:bid:FRACTAL:2026-11-26T06:00:00.000Z:3:high:2026-11-26T02:00:00.000Z"
+       ],
+       "kind": "FRACTAL",
+       "lower": 26381.6,
+       "upper": 26381.6,
+       "bounds_basis": "ORIGINAL",
+       "state": "ACTIVE",
+       "formation_status": "CONFIRMED",
+       "fill": null,
+       "distance": 211,
+       "contexts": [],
+       "urls": [
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-26T06:00:00.000Z:3:high:2026-11-26T02:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+       ],
+       "distance_atr_d1": 0.1948,
+       "nested_in": [],
+       "kl_events": {
+        "bounds_basis": "ORIGINAL",
+        "own_tf_counts": {
+         "TOUCH": 0,
+         "REJECTION": 0,
+         "ACCEPTANCE": 0,
+         "RAID": 0
+        },
+        "last": []
+       }
+      },
       {
        "id": "NAS100:H4:bid:FRACTAL:2026-11-20T18:00:00.000Z:3:high:2026-11-20T14:00:00.000Z",
        "ids": [
@@ -2636,12 +2760,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 165.8,
+       "distance": 260,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-20T18:00:00.000Z:3:high:2026-11-20T14:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-20T18:00:00.000Z:3:high:2026-11-20T14:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.1531,
+       "distance_atr_d1": 0.2401,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -2664,216 +2788,27 @@
          }
         ]
        }
-      },
-      {
-       "id": "NAS100:H4:bid:FVG:2026-11-24T10:00:00.000Z:",
-       "ids": [
-        "NAS100:H4:bid:FVG:2026-11-24T10:00:00.000Z:"
-       ],
-       "kind": "FVG",
-       "lower": 26495.3,
-       "upper": 26631.4,
-       "bounds_basis": "ORIGINAL",
-       "state": "ACTIVE",
-       "formation_status": "CONFIRMED",
-       "fill": "UNTOUCHED",
-       "distance": 230.5,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FVG:2026-11-24T10:00:00.000Z:&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 0.2128,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 0,
-         "RAID": 0
-        },
-        "last": []
-       }
-      },
-      {
-       "id": "NAS100:H4:bid:FRACTAL:2026-11-17T18:00:00.000Z:3:low:2026-11-17T14:00:00.000Z",
-       "ids": [
-        "NAS100:H4:bid:FRACTAL:2026-11-17T18:00:00.000Z:3:low:2026-11-17T14:00:00.000Z"
-       ],
-       "kind": "FRACTAL",
-       "lower": 26576.6,
-       "upper": 26576.6,
-       "bounds_basis": "ORIGINAL",
-       "state": "CONSUMED",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 311.8,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-17T18:00:00.000Z:3:low:2026-11-17T14:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 0.2879,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 3,
-         "RAID": 1
-        },
-        "last": [
-         {
-          "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-24T10:00:00.000Z"
-         },
-         {
-          "tf": "H4",
-          "type": "RAID",
-          "at": "2026-11-23T18:00:00.000Z"
-         }
-        ]
-       }
-      },
-      {
-       "id": "NAS100:H4:bid:FRACTAL:2026-11-24T02:00:00.000Z:3:low:2026-11-23T22:00:00.000Z",
-       "ids": [
-        "NAS100:H4:bid:FRACTAL:2026-11-24T02:00:00.000Z:3:low:2026-11-23T22:00:00.000Z"
-       ],
-       "kind": "FRACTAL",
-       "lower": 26609.4,
-       "upper": 26609.4,
-       "bounds_basis": "ORIGINAL",
-       "state": "CONSUMED",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 344.6,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-24T02:00:00.000Z:3:low:2026-11-23T22:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 0.3182,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 1,
-         "RAID": 0
-        },
-        "last": [
-         {
-          "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-24T10:00:00.000Z"
-         }
-        ]
-       }
-      },
-      {
-       "id": "NAS100:H4:bid:FRACTAL:2026-11-09T10:00:00.000Z:3:low:2026-11-09T06:00:00.000Z",
-       "ids": [
-        "NAS100:H4:bid:FRACTAL:2026-11-09T10:00:00.000Z:3:low:2026-11-09T06:00:00.000Z"
-       ],
-       "kind": "FRACTAL",
-       "lower": 26652.6,
-       "upper": 26652.6,
-       "bounds_basis": "ORIGINAL",
-       "state": "CONSUMED",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 387.8,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-09T10:00:00.000Z:3:low:2026-11-09T06:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 0.3581,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 3,
-         "RAID": 5
-        },
-        "last": [
-         {
-          "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-24T10:00:00.000Z"
-         },
-         {
-          "tf": "H4",
-          "type": "RAID",
-          "at": "2026-11-24T06:00:00.000Z"
-         }
-        ]
-       }
       }
      ],
      "below": [
       {
-       "id": "NAS100:H4:bid:FRACTAL:2026-11-06T02:00:00.000Z:3:low:2026-11-05T22:00:00.000Z",
+       "id": "NAS100:H4:bid:FRACTAL:2026-11-26T14:00:00.000Z:3:low:2026-11-26T10:00:00.000Z",
        "ids": [
-        "NAS100:H4:bid:FRACTAL:2026-11-06T02:00:00.000Z:3:low:2026-11-05T22:00:00.000Z"
+        "NAS100:H4:bid:FRACTAL:2026-11-26T14:00:00.000Z:3:low:2026-11-26T10:00:00.000Z"
        ],
        "kind": "FRACTAL",
-       "lower": 26255.2,
-       "upper": 26255.2,
-       "bounds_basis": "ORIGINAL",
-       "state": "CONSUMED",
-       "formation_status": "CONFIRMED",
-       "fill": null,
-       "distance": 9.6,
-       "contexts": [],
-       "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-06T02:00:00.000Z:3:low:2026-11-05T22:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-       ],
-       "distance_atr_d1": 0.0089,
-       "nested_in": [],
-       "kl_events": {
-        "bounds_basis": "ORIGINAL",
-        "own_tf_counts": {
-         "TOUCH": 0,
-         "REJECTION": 0,
-         "ACCEPTANCE": 6,
-         "RAID": 5
-        },
-        "last": [
-         {
-          "tf": "H4",
-          "type": "ACCEPTANCE",
-          "at": "2026-11-26T06:00:00.000Z"
-         },
-         {
-          "tf": "H4",
-          "type": "RAID",
-          "at": "2026-11-26T02:00:00.000Z"
-         }
-        ]
-       }
-      },
-      {
-       "id": "NAS100:H4:bid:FVG:2026-11-26T02:00:00.000Z:",
-       "ids": [
-        "NAS100:H4:bid:FVG:2026-11-26T02:00:00.000Z:"
-       ],
-       "kind": "FVG",
-       "lower": 26112.2,
-       "upper": 26175.5,
+       "lower": 26077.3,
+       "upper": 26077.3,
        "bounds_basis": "ORIGINAL",
        "state": "ACTIVE",
        "formation_status": "CONFIRMED",
-       "fill": "UNTOUCHED",
-       "distance": 89.3,
+       "fill": null,
+       "distance": 93.3,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FVG:2026-11-26T02:00:00.000Z:&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-26T14:00:00.000Z:3:low:2026-11-26T10:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.0825,
+       "distance_atr_d1": 0.0861,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -2898,12 +2833,12 @@
        "state": "CONSUMED",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 332.1,
+       "distance": 237.9,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-24T18:00:00.000Z:3:low:2026-11-24T14:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-24T18:00:00.000Z:3:low:2026-11-24T14:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 0.3066,
+       "distance_atr_d1": 0.2197,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -2939,12 +2874,12 @@
        "state": "ACTIVE",
        "formation_status": "CONFIRMED",
        "fill": null,
-       "distance": 1292.6,
+       "distance": 1198.4,
        "contexts": [],
        "urls": [
-        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-25T18:00:00.000Z:3:low:2026-11-25T14:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+        "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-25T18:00:00.000Z:3:low:2026-11-25T14:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
        ],
-       "distance_atr_d1": 1.1935,
+       "distance_atr_d1": 1.1065,
        "nested_in": [],
        "kl_events": {
         "bounds_basis": "ORIGINAL",
@@ -2960,95 +2895,85 @@
      ],
      "at_price": [],
      "eligible": {
-      "above": 114,
-      "below": 4,
+      "above": 117,
+      "below": 3,
       "at_price": 0
      },
-     "omitted": 109
+     "omitted": 112
     },
     "approach": {
-     "through": "2026-11-26T06:00:00.000Z",
-     "closes": "RISING",
-     "bars_without_correction": 4,
-     "move": 906.1,
-     "move_atr_d1": 0.8366,
+     "through": "2026-11-26T18:00:00.000Z",
+     "closes": "FALLING",
+     "bars_without_correction": 1,
+     "move": 70.4,
+     "move_atr_d1": 0.065,
      "window_bars": 6,
-     "overlapping_body_pairs": 1,
-     "contracting_ranges": 3,
+     "overlapping_body_pairs": 3,
+     "contracting_ranges": 1,
      "nearest_level_on_path": {
-      "id": "NAS100:H4:bid:FRACTAL:2026-11-20T18:00:00.000Z:3:high:2026-11-20T14:00:00.000Z",
+      "id": "NAS100:H4:bid:FRACTAL:2026-11-26T14:00:00.000Z:3:low:2026-11-26T10:00:00.000Z",
       "kind": "FRACTAL",
-      "distance": 165.8,
+      "distance": 93.3,
       "at_price": false
      },
      "flag": "NOT_EVALUATED",
      "thresholds": "NEEDS_SPECIFICATION"
     },
     "strong_fractals": {
-     "total": 70,
+     "total": 73,
      "by_flag": {
-      "VC_AT_FRACTAL": 62,
+      "VC_AT_FRACTAL": 65,
       "RAIDED_PRIOR_FRACTAL": 29,
       "BOTH": 21
      },
      "items": [
       {
-       "id": "NAS100:H4:bid:FRACTAL:2026-11-24T10:00:00.000Z:3:high:2026-11-24T06:00:00.000Z",
-       "price": 26872.8,
-       "confirmed_at": "2026-11-24T14:00:00.000Z",
+       "id": "NAS100:H4:bid:FRACTAL:2026-11-26T14:00:00.000Z:3:high:2026-11-26T10:00:00.000Z",
+       "price": 26288.8,
+       "confirmed_at": "2026-11-26T18:00:00.000Z",
        "state": "ACTIVE",
        "flags": [
         "VC_AT_FRACTAL"
        ],
        "vc": [
         {
-         "id": "NAS100:H4:bid:SNR_CLOSED_BREAK:2026-11-24T06:00:00.000Z:2026-11-23T22:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z",
-         "lower": 26730.9,
-         "upper": 26730.9
-        },
-        {
-         "id": "NAS100:H4:bid:SNR_CLOSED_BREAK:2026-11-24T22:00:00.000Z:2026-11-24T10:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z",
-         "lower": 26139,
-         "upper": 26139
+         "id": "NAS100:H4:bid:SNR_CLOSED_BREAK:2026-11-26T14:00:00.000Z:2026-11-26T06:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z",
+         "lower": 26203.2,
+         "upper": 26203.2
         }
        ],
        "raided_fractal_ids": []
       },
       {
-       "id": "NAS100:H4:bid:FRACTAL:2026-11-24T02:00:00.000Z:3:high:2026-11-23T22:00:00.000Z",
-       "price": 26959.3,
-       "confirmed_at": "2026-11-24T06:00:00.000Z",
+       "id": "NAS100:H4:bid:FRACTAL:2026-11-26T14:00:00.000Z:3:low:2026-11-26T10:00:00.000Z",
+       "price": 26077.3,
+       "confirmed_at": "2026-11-26T18:00:00.000Z",
        "state": "ACTIVE",
        "flags": [
         "VC_AT_FRACTAL"
        ],
        "vc": [
         {
-         "id": "NAS100:H4:bid:SNR_CLOSED_BREAK:2026-11-24T06:00:00.000Z:2026-11-23T22:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z",
-         "lower": 26730.9,
-         "upper": 26730.9
+         "id": "NAS100:H4:bid:RB_TWO_CANDLE:2026-11-26T10:00:00.000Z:NAS100:H4:bid:FVG:2026-11-26T02:00:00.000Z:",
+         "lower": 26203.2,
+         "upper": 26203.2
         }
        ],
        "raided_fractal_ids": []
       },
       {
-       "id": "NAS100:H4:bid:FRACTAL:2026-11-24T02:00:00.000Z:3:low:2026-11-23T22:00:00.000Z",
-       "price": 26609.4,
-       "confirmed_at": "2026-11-24T06:00:00.000Z",
-       "state": "CONSUMED",
+       "id": "NAS100:H4:bid:FRACTAL:2026-11-26T06:00:00.000Z:3:high:2026-11-26T02:00:00.000Z",
+       "price": 26381.6,
+       "confirmed_at": "2026-11-26T10:00:00.000Z",
+       "state": "ACTIVE",
        "flags": [
         "VC_AT_FRACTAL"
        ],
        "vc": [
         {
-         "id": "NAS100:H4:bid:RB_TWO_CANDLE:2026-11-24T02:00:00.000Z:NAS100:H4:bid:FVG:2026-11-23T18:00:00.000Z:",
-         "lower": 26730.9,
-         "upper": 26730.9
-        },
-        {
-         "id": "NAS100:H4:bid:SNR_CLOSED_BREAK:2026-11-24T02:00:00.000Z:2026-11-23T18:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-08-01T00:00:00.000Z:3:low:2026-07-01T00:00:00.000Z",
-         "lower": 26764.7,
-         "upper": 26764.7
+         "id": "NAS100:H4:bid:SNR_CLOSED_BREAK:2026-11-26T14:00:00.000Z:2026-11-26T06:00:00.000Z:NAS100:MN1:bid:FRACTAL:2026-02-01T00:00:00.000Z:3:high:2026-01-01T00:00:00.000Z",
+         "lower": 26203.2,
+         "upper": 26203.2
         }
        ],
        "raided_fractal_ids": []
@@ -3085,40 +3010,13 @@
     },
     "recent_fractals": [
      {
-      "id": "NAS100:H4:bid:FRACTAL:2026-11-23T18:00:00.000Z:3:high:2026-11-23T14:00:00.000Z",
-      "polarity": "high",
-      "price": 27064.1,
-      "confirmed_at": "2026-11-23T22:00:00.000Z",
-      "relation": "FIRST_OBSERVED",
-      "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-23T18:00:00.000Z:3:high:2026-11-23T14:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-     },
-     {
-      "id": "NAS100:H4:bid:FRACTAL:2026-11-24T02:00:00.000Z:3:high:2026-11-23T22:00:00.000Z",
-      "polarity": "high",
-      "price": 26959.3,
-      "confirmed_at": "2026-11-24T06:00:00.000Z",
-      "relation": "LH",
-      "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-24T02:00:00.000Z:3:high:2026-11-23T22:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-     },
-     {
-      "id": "NAS100:H4:bid:FRACTAL:2026-11-24T02:00:00.000Z:3:low:2026-11-23T22:00:00.000Z",
-      "polarity": "low",
-      "price": 26609.4,
-      "confirmed_at": "2026-11-24T06:00:00.000Z",
-      "relation": "FIRST_OBSERVED",
-      "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-24T02:00:00.000Z:3:low:2026-11-23T22:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
-     },
-     {
       "id": "NAS100:H4:bid:FRACTAL:2026-11-24T10:00:00.000Z:3:high:2026-11-24T06:00:00.000Z",
       "polarity": "high",
       "price": 26872.8,
       "confirmed_at": "2026-11-24T14:00:00.000Z",
       "relation": "LH",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-24T10:00:00.000Z:3:high:2026-11-24T06:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-24T10:00:00.000Z:3:high:2026-11-24T06:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:H4:bid:FRACTAL:2026-11-24T18:00:00.000Z:3:low:2026-11-24T14:00:00.000Z",
@@ -3127,7 +3025,7 @@
       "confirmed_at": "2026-11-24T22:00:00.000Z",
       "relation": "LL",
       "state": "CONSUMED",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-24T18:00:00.000Z:3:low:2026-11-24T14:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-24T18:00:00.000Z:3:low:2026-11-24T14:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      },
      {
       "id": "NAS100:H4:bid:FRACTAL:2026-11-25T18:00:00.000Z:3:low:2026-11-25T14:00:00.000Z",
@@ -3136,31 +3034,58 @@
       "confirmed_at": "2026-11-25T22:00:00.000Z",
       "relation": "LL",
       "state": "ACTIVE",
-      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-25T18:00:00.000Z:3:low:2026-11-25T14:00:00.000Z&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-25T18:00:00.000Z:3:low:2026-11-25T14:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+     },
+     {
+      "id": "NAS100:H4:bid:FRACTAL:2026-11-26T06:00:00.000Z:3:high:2026-11-26T02:00:00.000Z",
+      "polarity": "high",
+      "price": 26381.6,
+      "confirmed_at": "2026-11-26T10:00:00.000Z",
+      "relation": "LH",
+      "state": "ACTIVE",
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-26T06:00:00.000Z:3:high:2026-11-26T02:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+     },
+     {
+      "id": "NAS100:H4:bid:FRACTAL:2026-11-26T14:00:00.000Z:3:high:2026-11-26T10:00:00.000Z",
+      "polarity": "high",
+      "price": 26288.8,
+      "confirmed_at": "2026-11-26T18:00:00.000Z",
+      "relation": "LH",
+      "state": "ACTIVE",
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-26T14:00:00.000Z:3:high:2026-11-26T10:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
+     },
+     {
+      "id": "NAS100:H4:bid:FRACTAL:2026-11-26T14:00:00.000Z:3:low:2026-11-26T10:00:00.000Z",
+      "polarity": "low",
+      "price": 26077.3,
+      "confirmed_at": "2026-11-26T18:00:00.000Z",
+      "relation": "HL",
+      "state": "ACTIVE",
+      "url": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&id=NAS100:H4:bid:FRACTAL:2026-11-26T14:00:00.000Z:3:low:2026-11-26T10:00:00.000Z&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
      }
     ],
     "findings_by_kind": {
-     "FRACTAL": 90,
+     "FRACTAL": 92,
      "FVG": 60,
      "RAID": 54,
-     "RB_TWO_CANDLE": 41,
-     "SNR_CLOSED_BREAK": 65,
+     "RB_TWO_CANDLE": 42,
+     "SNR_CLOSED_BREAK": 66,
      "FRACTAL_INSIDE_POI": 23
     },
     "links": {
-     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&timeframe=H4&limit=50&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8",
-     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=NAS100&side=bid&grid=ny&timeframe=H4&limit=200&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8",
-     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&view=structure&timeframe=H4&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8"
+     "evidence": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&timeframe=H4&limit=50&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807",
+     "candles": "https://capitalive.vercel.app/api/pa-candles?symbol=NAS100&side=bid&grid=ny&timeframe=H4&limit=200&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807",
+     "structure": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&view=structure&timeframe=H4&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807"
     }
    }
   },
   "coverage": {
-   "findings_total": 868,
+   "findings_total": 872,
    "history_scope": "AVAILABLE_PROVIDER_WINDOW_NOT_FULL_MARKET_HISTORY",
    "all_findings_via": "links.evidence_all"
   },
   "omitted": {
-   "levels": 283,
+   "levels": 285,
    "levels_size_trimmed": 0,
    "fact_details_size_trimmed": [],
    "findings_not_listed": "ALL_FINDINGS_PAGINATED_VIA_LINKS"
@@ -3180,7 +3105,7 @@
    "self": "https://capitalive.vercel.app/api/brief?symbol=NAS100&side=bid&grid=ny",
    "desk_report": "https://capitalive.vercel.app/api/desk-report?symbol=NAS100&side=bid&grid=ny",
    "market_context": "https://capitalive.vercel.app/api/desk-report?symbol=NAS100&side=bid&grid=ny&view=market-context",
-   "evidence_all": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&limit=50&snapshot_sha256=d7d4a88ec8e0a29ee9f02c76a2a9c9419cac320ed85a1a62c370f4d4887961c8",
+   "evidence_all": "https://capitalive.vercel.app/api/pa-evidence?symbol=NAS100&side=bid&grid=ny&limit=50&snapshot_sha256=f577b2d54c7b04342ee6f1d3f8c610702beb8c2e0328ff95db4f19f4db7be807",
    "docs": "https://capitalive.vercel.app/llms.txt"
   },
   "trading_enabled": false
