@@ -1,26 +1,26 @@
 {
- "published_at": "2026-11-27T05:20:43.782Z",
- "requested_at": "2026-11-27T05:20:30.318Z",
+ "published_at": "2026-11-27T14:57:46.996Z",
+ "requested_at": "2026-11-27T14:57:10.507Z",
  "ok": true,
  "status": "PARTIAL",
- "generated_at": "2026-11-27T05:20:43.748Z",
+ "generated_at": "2026-11-27T14:57:46.916Z",
  "results": {
   "NAS100": {
    "http_status": 200,
    "status": "PARTIAL",
-   "snapshot_sha256": "d492c982a574772066570b6467f22f1761053c98bb08dc146f5cc1a2962df397",
+   "snapshot_sha256": "3b8869974b35e0a4c779a1db5e90c98ebb01817ffd371db3a05ce5d363ca7876",
    "error": null
   },
   "EU50": {
    "http_status": 200,
    "status": "PARTIAL",
-   "snapshot_sha256": "d5e9a0999010d82a71b22e42fb00b9ba6c3c26b1f753e7a042f37fa6f674c4e0",
+   "snapshot_sha256": "4bd1dbd3f71528aed85dd5250bd8ea638ec7fe0eb2f7f23dceaf03357e178ee4",
    "error": null
   },
   "EURUSD": {
    "http_status": 200,
    "status": "PARTIAL",
-   "snapshot_sha256": "4cdca7f27c8525e38e46f616e00f80d1bcf372c93365c54f75f5b535b29be226",
+   "snapshot_sha256": "5bac53473dfc40ad447b2d78c059a71486999f00d432394eae728820983f74ee",
    "error": null
   }
  },
