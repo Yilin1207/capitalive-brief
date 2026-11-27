@@ -1,33 +1,38 @@
 {
- "published_at": "2026-11-27T03:37:41.998Z",
- "requested_at": "2026-11-27T03:36:58.030Z",
+ "published_at": "2026-11-27T05:20:43.782Z",
+ "requested_at": "2026-11-27T05:20:30.318Z",
  "ok": true,
  "status": "PARTIAL",
- "generated_at": "2026-11-27T03:37:41.935Z",
+ "generated_at": "2026-11-27T05:20:43.748Z",
  "results": {
   "NAS100": {
    "http_status": 200,
    "status": "PARTIAL",
-   "snapshot_sha256": "de6e6b75f88c6d7dff680df5e3d931b87048ed9cbf13071ec9dcedaf05b1d7cf",
+   "snapshot_sha256": "d492c982a574772066570b6467f22f1761053c98bb08dc146f5cc1a2962df397",
    "error": null
   },
   "EU50": {
    "http_status": 200,
    "status": "PARTIAL",
-   "snapshot_sha256": "7e2fe798a93b629604b3f6ba75cf1090bcbcb15514d1f750eb4be3f7311660f5",
+   "snapshot_sha256": "d5e9a0999010d82a71b22e42fb00b9ba6c3c26b1f753e7a042f37fa6f674c4e0",
    "error": null
   },
   "EURUSD": {
    "http_status": 200,
    "status": "PARTIAL",
-   "snapshot_sha256": "50825d9da2176954129ab573fc79b3716e4c7a86fcdeb477865aefd4704f8aeb",
+   "snapshot_sha256": "4cdca7f27c8525e38e46f616e00f80d1bcf372c93365c54f75f5b535b29be226",
    "error": null
   }
  },
  "grid": "ny",
  "engine": {
   "contract": "pa-engine-v6.1",
-  "revision": "pa-only-6.0.0",
-  "commit": "d8341967176d12ea2c49fb751081a2f8ee1a4c6e"
+  "revision": "pa-only-6.1.0",
+  "commit": "ac4176e1afc79a4bcb91d1622a660b24778ae497"
+ },
+ "h1_by_symbol": {
+  "NAS100": "PARTIAL",
+  "EU50": "PARTIAL",
+  "EURUSD": "PARTIAL"
  }
 }
