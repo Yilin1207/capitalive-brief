@@ -1,7 +1,38 @@
 {
- "published_at": "2026-11-28T00:32:03.975Z",
- "requested_at": "2026-11-28T00:31:03.049Z",
+ "published_at": "2026-11-28T08:53:23.301Z",
+ "requested_at": "2026-11-28T08:52:23.143Z",
  "ok": false,
- "error": "NOT_A_PA_BRIEF_BATCH",
- "source": "https://capitalive.vercel.app/api/brief?symbols=NAS100,EU50,EURUSD&latest=12&include_h1=1"
+ "status": "ERROR",
+ "generated_at": "2026-11-28T08:53:23.248Z",
+ "results": {
+  "NAS100": {
+   "http_status": 200,
+   "status": "PARTIAL",
+   "snapshot_sha256": "0716af50f5408f46857cdb50268f1fecdeae9df3804abbe68de875555c5bc824",
+   "error": null
+  },
+  "EU50": {
+   "http_status": 503,
+   "status": "ERROR",
+   "snapshot_sha256": null,
+   "error": "UPSTREAM_OR_EVIDENCE_UNAVAILABLE"
+  },
+  "EURUSD": {
+   "http_status": 200,
+   "status": "PARTIAL",
+   "snapshot_sha256": "44a915dd753861eb7cf6832cc450da656135f8972ecf7b53c7d67549b6181cb2",
+   "error": null
+  }
+ },
+ "grid": "ny",
+ "engine": {
+  "contract": "pa-engine-v6.1",
+  "revision": "pa-only-6.1.0",
+  "commit": "ac4176e1afc79a4bcb91d1622a660b24778ae497"
+ },
+ "h1_by_symbol": {
+  "NAS100": "STALE",
+  "EU50": "ERROR",
+  "EURUSD": "PARTIAL"
+ }
 }
